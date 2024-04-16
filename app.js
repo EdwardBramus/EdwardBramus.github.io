@@ -29,7 +29,7 @@ d3.csv("PostiLodi.csv").then(function (data) {
 
     output = _.sortBy(filteredData, 'rating').reverse()
 
-    for (var i = 0; i < filteredMovies.length; i++) {d3.select("tbody").insert("tr").html(
+    for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
       "<td>" + [i+1] + "</td>" +
       "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
       "<td>" + (output[i]['reviews'])+"</td>" +
