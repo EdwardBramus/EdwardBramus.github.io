@@ -20,17 +20,22 @@ d3.csv("Posti Lodi.csv").then(function (data) {
       d3.select("p").classed('noresults2', true).html("<center><strong>Please try using more than 5 characters to avoid too many results!</strong>")
       inputValue = "Something to give no results"
     }
-    var filteredData = movies.filter(movies => movies.actors.toLowerCase().trim().includes(inputValue));
+
+    var filteredData = movies.filter(movies => movies.name.toLowerCase().trim().includes(inputValue));
 
     if (filteredData.length === 0 && inputValue !== "Something to give no results"){
       d3.select("p").classed('noresults', true).html("<center><strong>No results. Please check your spelling!</strong>")
     }
-    output = _.sortBy(filteredData, 'avg_vote').reverse()
 
-    for (var i = 0; i < filteredData.length; i++) {
-      d3.select("tbody").insert("tr").html("<td>"+[i+1]+"</td>"+"<td>"+"<a href=https://www.imdb.com/title/"+output[i]['imdb_title_id']+" target='_blank'>"+(output[i]['original_title'])+"</a>"
-      + "</td>" +"<td>" +(output[i]['avg_vote'])+"</td>" +"<td>" +(output[i]['year'])+"</td>"  +"<td>" +(output[i]['director'])+"</td>"+"<td>" +(output[i]['description'])+"</td>") }
-  };
+    output = _.sortBy(filteredData, 'rating').reverse()
+
+    for (var i = 0; i < filteredMovies.length; i++) {d3.select("tbody").insert("tr").html(
+      "<td>" + [i+1] + "</td>" +
+      "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
+      "<td>" + (output[i]['reviews'])+"</td>" +
+      "<td>" + (output[i]['rating'])+"</td>" +
+      "<td>" + (output[i]['description'])+"</td" ) }};
+
   window.resizeTo(screen.width,screen.height)
 
 

@@ -1,4 +1,4 @@
- name, reviews, rating
+name, reviews, rating
 Pizza E Cucina,not provided,not provided
 La Camolina Ole,not provided,not provided
 Pausa Pranzo,not provided,not provided
@@ -7,11 +7,11 @@ Pizzeria 26900,not provided,not provided
 Via Marsala 33,not provided,not provided
 Pizzeria Pucceria I Sapori Del Sole,not provided,not provided
 Armando's bar,not provided,not provided
-Moon Cafè,not provided,not provided
+Moon Cafï¿½,not provided,not provided
 ROSSO RUBINO,not provided,not provided
 Pizzeria da benito,not provided,not provided
 Studio Pavese di Carlo Pavese S.A.S.,not provided,not provided
-Istanbul Turkish Pizza - Kebap - Grill - Specialità Turche a Lodi,1,5
+Istanbul Turkish Pizza - Kebap - Grill - Specialitï¿½ Turche a Lodi,1,5
 Baffo Young,1,5
 Sushi Daily Montanaso Lombardo,3,5
 Pisco bar Lodi,1,5
@@ -42,7 +42,7 @@ Bar Cavour,82,4.6
 ART Cafe' S.A.S. Di Fasoli Luca &C.,121,4.6
 Happy bar tabacchi,18,4.6
 Maracuja Frullateria Bar,130,4.6
-Ethos Cafè,87,4.6
+Ethos Cafï¿½,87,4.6
 Bar Ex P.O.,60,4.6
 Pizzeria Smeraldo,30,4.6
 Martin Bar,7,4.6
@@ -51,15 +51,15 @@ Ristorante A Modo Mio,90,4.5
 Green Corner Ristorante Vineria,239,4.5
 Il Pomodoro Pelato,438,4.5
 Ristopizza Revellino,81,4.5
-TOP CAFFÈ food & drink,44,4.5
+TOP CAFFï¿½ food & drink,44,4.5
 What's Cup?,75,4.5
 Gelateria Puro & Bio Lodi,769,4.5
 Matiz,96,4.5
 Bar tabacchi la siesta,86,4.5
 La'Siesta Birreria Caffetteria,16,4.5
 Wellington Pub,852,4.5
-ardis cafè,112,4.5
-R&d cafè lodi,96,4.5
+ardis cafï¿½,112,4.5
+R&d cafï¿½ lodi,96,4.5
 Bar Caffe' Marino,127,4.5
 Bar Pasticceria Tabaccheria Masseroni,152,4.5
 Le Dolci Delizie Bistrot Di Megna Marilena,120,4.5
@@ -96,12 +96,12 @@ Ristorante Koora Sushi,590,4.3
 Kanpai Sushi Restaurant,439,4.3
 The Bridge Pub,567,4.3
 Bar Arena Tabacchi,22,4.3
-Ex icaro Cafè ora Orchidea,85,4.3
+Ex icaro Cafï¿½ ora Orchidea,85,4.3
 Bar Italia,51,4.3
 Margi Snc Di Serati Arnaldo E C.,11,4.3
 Ristorante Alta Marea,461,4.3
 Ristorante Pizzeria La Fleur,6,4.3
-Lodi Cafè,45,4.3
+Lodi Cafï¿½,45,4.3
 Ristorante La Muraglia Cinese,855,4.2
 Hong Kong,1487,4.2
 Tadim Istanbul Pizzeria-Kebap,279,4.2
@@ -122,19 +122,19 @@ Ristorante Isola Caprera,699,4.1
 Ristorante Pizzeria San Carlo,499,4.1
 Osteria Vecchia Lodi Di Clerici Francesca,321,4.1
 Agripizza,395,4.1
-Il rondò antica osteria con pizza e scrocchia,587,4.1
+Il rondï¿½ antica osteria con pizza e scrocchia,587,4.1
 Tadim Kebab Pizzeria,463,4.1
-Mena Mè Salento Bistrot,360,4.1
-Caffè Letterario,578,4.1
+Mena Mï¿½ Salento Bistrot,360,4.1
+Caffï¿½ Letterario,578,4.1
 Birreria Nuovo Faro,1259,4.1
-Smoothcafè,44,4.1
+Smoothcafï¿½,44,4.1
 Bar Tabacchi,9,4.1
 Bar Davide,40,4.1
-La Piazzetta Bistrò,381,4.1
+La Piazzetta Bistrï¿½,381,4.1
 La Caffetteria Del Corso Snc,11,4.1
 Bar 168,71,4.1
 Bar Silver,7,4.1
-Fashion Cafè,208,4.1
+Fashion Cafï¿½,208,4.1
 Le Piramidi - Rosticceria e Pizzeria,9,4
 Pizzeria Armandino,211,4
 Osteria del Capanno,273,4
@@ -144,17 +144,17 @@ Osteria Del Rugantino,114,4
 McDonald's Lodi Tangenziale Est,2349,4
 La Piadineria,43,4
 Zii Gaetano,69,4
-Desigual Cafè & Restaurant,233,4
+Desigual Cafï¿½ & Restaurant,233,4
 Biffino Bistrot,278,4
 Bar L' Incontro 2,27,4
 Ristorante Megu,613,4
 Winny Bar Snc,27,4
 New Bar,68,4
-Coop Caffè,1,4
+Coop Caffï¿½,1,4
 Osteria la Tarantola,351,4
 Tadim,51,3.9
 Calicantus Food,351,3.9
-Caffè Nazionale,848,3.9
+Caffï¿½ Nazionale,848,3.9
 Ammar Pizza Kebab,19,3.9
 Pizzeria Ristorante Grotta Azzurra,410,3.9
 ReB by ReBasilico,633,3.9
@@ -165,9 +165,9 @@ Officine Adda,477,3.9
 Fontana,982,3.8
 Al Portico Dei Pensieri,756,3.8
 Pizzeria Pane e Farina,768,3.8
-Al Trentaduecafè,365,3.8
+Al Trentaduecafï¿½,365,3.8
 Bar Seven,161,3.8
-Vasinikò,717,3.7
+Vasinikï¿½,717,3.7
 Bar Dragoni Simona,12,3.7
 Burger King,1405,3.6
 Dal baffo,258,3.6
@@ -175,5 +175,5 @@ A Modo Mio,111,3.6
 Ji Xue Hua,4,3.5
 Pecora Nera,4,3.5
 Briciole E Delizie,27,2.9
-Mensa Facoltà di Veterinaria,8,2.8
+Mensa Facoltï¿½ di Veterinaria,8,2.8
 Fiorital Corner - Lodi,3,2
