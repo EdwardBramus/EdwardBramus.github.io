@@ -16,7 +16,7 @@ d3.csv("PostiLodi.csv").then(function (data) {
     var inputElement = d3.select("#user-input");
     var inputValue = inputElement.property("value").toLowerCase().trim();
 
-    if (inputValue.length < 6){
+    if (inputValue.length < 3){
       d3.select("p").classed('noresults2', true).html("<center><strong>Please try using more than 5 characters to avoid too many results!</strong>")
       inputValue = "Something to give no results"
     }
