@@ -33,8 +33,7 @@ d3.csv("Posti Lodi.csv").then(function (data) {
       "<td>" + [i+1] + "</td>" +
       "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
       "<td>" + (output[i]['reviews'])+"</td>" +
-      "<td>" + (output[i]['rating'])+"</td>" +
-      "<td>" + (output[i]['description'])+"</td" ) }};
+      "<td>" + (output[i]['rating'])+"</td>" ) }};
 
   window.resizeTo(screen.width,screen.height)
 
