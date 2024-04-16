@@ -1,6 +1,6 @@
-d3.csv("Posti Lodi.csv").then(function (data) {
+d3.csv("PostiLodi.csv").then(function (data) {
 
-  var movies = data;
+  var PostiLodi = data;
 
   var button = d3.select("#button");
 
@@ -21,7 +21,7 @@ d3.csv("Posti Lodi.csv").then(function (data) {
       inputValue = "Something to give no results"
     }
 
-    var filteredData = movies.filter(movies => movies.name.toLowerCase().trim().includes(inputValue));
+    var filteredData = PostiLodi.filter(PostiLodi => PostiLodi.name.toLowerCase().trim().includes(inputValue));
 
     if (filteredData.length === 0 && inputValue !== "Something to give no results"){
       d3.select("p").classed('noresults', true).html("<center><strong>No results. Please check your spelling!</strong>")
