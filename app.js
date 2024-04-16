@@ -27,7 +27,7 @@ d3.csv("PostiLodi.csv").then(function (data) {
       d3.select("p").classed('noresults', true).html("<center><strong>No results. Please check your spelling!</strong>")
     }
 
-    output = _.sortBy(filteredData, 'rating').reverse()
+    output = _.sortBy(filteredData, 'rating')
 
     for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
       "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
