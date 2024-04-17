@@ -50,10 +50,10 @@ function runEnter() {
 //Qui viene stampata la tabella finale
 
     for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
-      "<td>" + (output[i]['name']) +"</a>"+"</td>" +
-      "<td>" + (output[i]['fulladdr'])+"</td>" + 
-      "<td>" + (output[i]['reviews'])+"</td>" + 
-      "<td>" + (output[i]['rating'])+"</td>" ) }};
+      "<td>" + (output[i]['name']) + "</td>" +
+      "<td>" + (output[i]['fulladdr'])+ "</td>" + 
+      "<td>" + (output[i]['reviews'])+ "</td>" + 
+      "<td>" + (output[i]['rating'])+ "</td>" ) }};
 
   window.resizeTo(screen.width,screen.height)
 
