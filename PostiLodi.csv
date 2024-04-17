@@ -1,176 +1,148 @@
- name, reviews, rating, fulladdr, latitude, longitude, categories
-La Camolina Ole,not provided,not provided,Via Lodivecchio. 30. 26900 Lodi LO,45.3109538,9.4868063,Italian restaurant
-Sant'Agnese Di Di Gregorio Francesca,not provided,not provided,Via Marsala. 33. 26900 Lodi LO,45.3123112,9.503291,Pizza restaurant
-Via Marsala 33,not provided,not provided,Via Marsala. 33. 26900 Lodi LO,45.3123367,9.5033536,Restaurant
-ROSSO RUBINO,not provided,not provided,Via Borgo Adda. 1. 26900 Lodi LO,45.3175145,9.5079025,Restaurant.Wine store
-Pizzeria Pucceria I Sapori Del Sole,not provided,not provided,Via Castelfidardo. 20. 26900 Lodi LO,45.3112904,9.5017231,Restaurant
-Pausa Pranzo,not provided,not provided,Corso Giuseppe Mazzini. 96. 26900 Lodi LO,45.3046285,9.508812,Restaurant
-Pizzeria 26900,not provided,not provided,Via Giovanni Carnovali. 8. 26900 Lodi LO,45.3004785,9.516549,Restaurant
-Pizza E Cucina,not provided,not provided,Viale Pavia. 26900 Lodi LO,45.3039921,9.488991,Restaurant
-Pizzeria da benito,not provided,not provided,Via Walter Tobagi. 8. 26900 Lodi LO,45.29995,9.4996,Restaurant
-Studio Pavese di Carlo Pavese S.A.S.,not provided,not provided,Via Giuseppe Saragat. 12. 26900 Lodi LO,45.3015247,9.495722,Bar restaurant furniture store
-Armando's bar,not provided,not provided,Via Lodivecchio. 21. 26900 Lodi LO,45.311548,9.4896733,Bar
-Baffo Young,1,5,Via Castelfidardo. 26900 Lodi LO,45.3113117,9.5016941,Pizza restaurant
-Istanbul Turkish Pizza - Kebap - Grill - Specialità Turche a Lodi,1,5,Via Lodino. 87. 26900 Lodi LO,45.3172167,9.5061738,Fast food restaurant
-Dodici Dodici Food Boutique,1,5,Via Gaffurio. 22. 26900 Lodi LO,45.3132737,9.5045334,Bar
-Bar del las piazza,1,5,Viale Pavia. 14. 26900 Lodi LO,45.3077291,9.496468,Bar
-Pisco bar Lodi,1,5,Via Lodivecchio. 21. 26900 Lodi LO,45.311548,9.4896733,Bar
+name,reviews,rating,fulladdr,latitude,longitude,categories
+Pizza Tour,10,4.3,Via Cavour. 48. 26900 Lodi LO,45.3144627,9.5053411,Restaurant
 Romeo Sas,10,4.9,Via Gaffurio. 11. 26900 Lodi LO,45.3133508,9.5042669,Restaurant Pizza 
 Romeo Sas,10,4.9,Via Gaffurio. 11. 26900 Lodi LO,45.3133508,9.5042669,Restaurant.Pizza restaurant
-Natalin Bar,17,4.9,Via Marsala. 17. 26900 Lodi LO,45.3130436,9.5025883,Bar
-Amatori Wasken Lodi,17,4.9,Piazzale degli Sport. 1. 26900 Lodi LO,45.2984275,9.5051374,Hockey club
-The Lab - Drink&Play,70,4.9,Via Guido Rossa. 12. 26900 Lodi LO,45.2988412,9.4977655,Bar.Game store.Night club.Toy library
-I Ravioli dell'Oste,77,4.9,Via Francesco Gabba. 10. 26900 Lodi LO,45.3142622,9.5012272,Restaurant.Food manufacturer.Pasta shop
-901 Bistrot,4,4.8,Via Borgo Adda. 1. 26900 Lodi LO,45.3175353,9.5078817,Restaurant
-Pizza Land,8,4.8,Via Nino dall'Oro. 4/i. 26900 Lodi LO,45.3098322,9.5006817,Pizza takeaway
-Giorgina Bar,9,4.8,Via San Bassiano. 53. 26900 Lodi LO,45.31152,9.4923815,Bar
+Bar Ponte Di Spagnuolo Antonio,11,3.9,Via Po. 5. 26900 Lodi LO,45.3191177,9.5144922,Bar
+La Caffetteria Del Corso Snc,11,4.1,Corso Vittorio Emanuele II. 58. 26900 Lodi LO,45.3130295,9.5004384,Bar
+Margi Snc Di Serati Arnaldo E C.,11,4.3,Viale Italia. 84. 26900 Lodi LO,45.2987978,9.5130825,Bar
+Bar Dragoni Simona,12,3.7,Via della Torretta. 2. 26900 Lodi LO,45.3215246,9.4827668,Bar
+Al Sazio Wasken Ristorante con pizza,13,4.2,Piazzale degli Sport. 1. 26900 Lodi LO,45.298501,9.5051459,Restaurant
 Lodino,13,4.8,Via Luigi Cadamosto. 4. 26900 Lodi LO,45.3191304,9.490753,Restaurant
-Paradise,32,4.8,Via Nino dall'Oro. 47. 26900 Lodi LO,45.3091581,9.4997644,Bar
-Holy Cow Home Restaurant,65,4.8,Strada Per. 26854 Pieve Fissiraga LO,45.2811689,9.4540397,Steak house
-ilSettantuno Ludopub,81,4.8,Via Lodino. 71. 26900 Lodi LO,45.3168982,9.5057044,Pub.Bar.Game store.Gay bar.Hamburger restaurant
 Vigna Alta - Kinky Souls,13,4.7,Via Vigna Alta. 21. 26900 Lodi LO,45.3208526,9.4822527,Pub
-Napoli in Pizza - Pizzeria Napoletana da Asporto,203,4.7,Via Cavour. 48. 26900 Lodi LO,45.3144753,9.5053245,Pizza restaurant
-Pizzeria mani in pasta,203,4.7,Via Giovanni Carnovali. 8. 26900 Lodi LO,45.3004717,9.5166456,Pizza restaurant
-Volpi F.Lli,267,4.7,Viale Pavia. 35. 26900 Lodi LO,45.3042379,9.4898992,Bakery.Pastry shop
-Martin Bar,7,4.6,26900 Lodi. Province of Lodi,45.2996401,9.4932383,Bar
-Happy bar tabacchi,18,4.6,ang flli lupi. Via Felice Cavallotti. 26900 Lodi LO,45.3227493,9.5123676,Bar
-Pizzeria Smeraldo,30,4.6,Viale Italia. 88. 26900 Lodi LO,45.2984418,9.5134875,Restaurant
-Bar Ex P.O.,60,4.6,Via Filiberto Villani. 26900 Lodi LO,45.3090635,9.5034682,Bar
-Bar Cavour,82,4.6,Via Cavour. 25. 26900 Lodi LO,45.313919,9.5040112,Restaurant.Cocktail bar.Bar
-Ethos Cafè,87,4.6,LO. Corso Vittorio Emanuele II. 48. 26900 Lodi LO,45.3131286,9.5006512,Bar
-Sfizio Misto Caffetteria Fast Food,120,4.6,Via Incoronata. 5. 26900 Lodi LO,45.3144285,9.502282,Bar & grill.Cafeteria.Fast food restaurant.Hamburger restaurant
-ART Cafe' S.A.S. Di Fasoli Luca &C.,121,4.6,Via Lodivecchio. 7. 26900 Lodi LO,45.3117502,9.4912602,Bar
-Maracuja Frullateria Bar,130,4.6,Via Ottone Morena. 8. 26900 Lodi LO,45.3124107,9.5006329,Bar
-FER - Forneria Artigiana,216,4.6,Via Marsala. 38. 26900 Lodi LO,45.311962,9.5034105,Pizza restaurant.Bakery.Pastry shop
-La Petite Mondina,286,4.6,Via Marsala. 33. 26900 Lodi LO,45.3123605,9.5033068,Restaurant.Italian restaurant
-Piadineria La Delizia,541,4.6,Piazzale Fiume. 10. 26900 Lodi LO,45.3115653,9.4976622,Fast food restaurant
 La'Siesta Birreria Caffetteria,16,4.5,26900 Lodi. Province of Lodi,45.3218766,9.4883818,Bar
+Amatori Wasken Lodi,17,4.9,Piazzale degli Sport. 1. 26900 Lodi LO,45.2984275,9.5051374,Hockey club
+G.V. Bar,17,4.2,26900 Lodi. Province of Lodi,45.3130534,9.4883102,Bar
+Natalin Bar,17,4.9,Via Marsala. 17. 26900 Lodi LO,45.3130436,9.5025883,Bar
+Happy bar tabacchi,18,4.6,ang flli lupi. Via Felice Cavallotti. 26900 Lodi LO,45.3227493,9.5123676,Bar
+Ristorante Castello,18,4.3,Piazza Castello. 2. 26900 Lodi LO,45.3125483,9.4999687,Restaurant
+Ammar Pizza Kebab,19,3.9,Corso Adda. 104. 26900 Lodi LO,45.3172409,9.507157,Kebab shop
+Bar Arena Tabacchi,22,4.3,Via Borgo Adda. 2. 26900 Lodi LO,45.3173376,9.5078221,Bar
+Bar L' Incontro 2,27,4,Corso Giuseppe Mazzini. 63. 26900 Lodi LO,45.3064055,9.5082429,Bar
+Briciole E Delizie,27,2.9,Via Walter Tobagi. 8. 26900 Lodi LO,45.2999488,9.499588,Organic shop.Dessert shop
+Winny Bar Snc,27,4,Viale Italia. 13. 26900 Lodi LO,45.3020657,9.5096202,Bar
+Pizzeria Smeraldo,30,4.6,Viale Italia. 88. 26900 Lodi LO,45.2984418,9.5134875,Restaurant
+Paradise,32,4.8,Via Nino dall'Oro. 47. 26900 Lodi LO,45.3091581,9.4997644,Bar
+Bar Davide,40,4.1,Corso Adda. 94. 26900 Lodi LO,45.3170604,9.507051,Bar
+I Love Poke Lodi,41,4.2,Piazza della Vittoria. 8. 26900 Lodi LO,45.3139112,9.5031059,Poke bar
+La Piadineria,43,4,SS 9 Via Emilia. 2. 26836 Montanaso Lombardo LO,45.3253072,9.4592384,Fast food restaurant.Family restaurant.Health food restaurant.Italian restaurant.Takeout restaurant.Restaurant.Small plates restaurant.Traditional restaurant
+Smoothcafè,44,4.1,Viale Savoia. 9D. 26900 Lodi LO,45.3151839,9.5110696,Espresso bar.Gastropub.Sandwich shop.Wine bar
 TOP CAFFÈ food & drink,44,4.5,Via San Bassiano. 1. 26900 Lodi LO,45.3118621,9.4974528,Restaurant.Bar
+Lodi Cafè,45,4.3,Viale Pavia. 14/b. 26900 Lodi LO,45.3077328,9.4964808,Espresso bar
 Bricchi Marco,48,4.5,Viale Piacenza. 39. 26900 Lodi LO,45.3003114,9.5146608,Espresso bar
+Buona Pizza,48,4.3,Via Secondo Cremonesi. 36. 26900 Lodi LO,45.3124895,9.5098396,Restaurant
+Bar Italia,51,4.3,Viale Italia. 84. 26900 Lodi LO,45.2987978,9.5130825,Bar
+Tadim,51,3.9,Via Borgo Adda. 80. 26900 Lodi LO,45.3150685,9.5118342,Restaurant
+Felice Angelo,56,4.4,Via Fratelli Lupi. 1. 26900 Lodi LO,45.3227997,9.5124334,Bar
+Bar Ex P.O.,60,4.6,Via Filiberto Villani. 26900 Lodi LO,45.3090635,9.5034682,Bar
+Holy Cow Home Restaurant,65,4.8,Strada Per. 26854 Pieve Fissiraga LO,45.2811689,9.4540397,Steak house
+New Bar,68,4,Via Tiziano Zalli. 34. 26900 Lodi LO,45.3038983,9.5045199,Bar
+Zii Gaetano,69,4,Via Tiziano Zalli. 24. 26900 Lodi LO,45.3038838,9.5051167,Pizza restaurant.Restaurant
+The Lab - Drink&Play,70,4.9,Via Guido Rossa. 12. 26900 Lodi LO,45.2988412,9.4977655,Bar.Game store.Night club.Toy library
+Bar 168,71,4.1,Viale Italia. 65. 26900 Lodi LO,45.3003971,9.5118568,Bar
 What's Cup?,75,4.5,Via Nino dall'Oro. 4b. 26900 Lodi LO,45.3100652,9.5009843,Takeout restaurant.Bagel shop.Cafeteria.Cake shop.Catering food and drink supplier.Caterer.Dessert restaurant.Grocery store.Meal delivery
+I Ravioli dell'Oste,77,4.9,Via Francesco Gabba. 10. 26900 Lodi LO,45.3142622,9.5012272,Restaurant.Food manufacturer.Pasta shop
+Pizzeria Delfino da asporto di Esposito Gaetano,79,4.4,Via Felice Cavallotti. 33. 26900 Lodi LO,45.3226753,9.5123378,Pizza restaurant
+ilSettantuno Ludopub,81,4.8,Via Lodino. 71. 26900 Lodi LO,45.3168982,9.5057044,Pub.Bar.Game store.Gay bar.Hamburger restaurant
 Ristopizza Revellino,81,4.5,Via Felice Cavallotti. 4. 26900 Lodi LO,45.3204743,9.5103208,Pizza restaurant
+Bar Cavour,82,4.6,Via Cavour. 25. 26900 Lodi LO,45.313919,9.5040112,Restaurant.Cocktail bar.Bar
+Ex icaro Cafè ora Orchidea,85,4.3,Viale Rimembranze. 38. 26900 Lodi LO,45.3055312,9.5065103,Espresso bar.Bar
 Bar tabacchi la siesta,86,4.5,V.le Genova. 6. 26900 Lodi LO,45.321898,9.4883314,Bar tabac
+Ethos Cafè,87,4.6,LO. Corso Vittorio Emanuele II. 48. 26900 Lodi LO,45.3131286,9.5006512,Bar
+Mabi's S.n.c.,90,4.4,Via del Pulignano. 2. 26900 Lodi LO,45.3200627,9.4835397,Bar
 Ristorante A Modo Mio,90,4.5,Via Selvagreca. 20. 26900 Lodi LO,45.3097919,9.5107886,Restaurant
+Mistral Cafe',95,4.3,Piazzale Fiume.angolo. Via Acquedotto. 26900 Lodi LO,45.3115234,9.4979343,Bar tabac.Southern Italian restaurant.Tobacco shop
 Matiz,96,4.5,Via Michele e Pier Giacomo. Via Fratelli Sartorio. 5. 26900 Lodi LO,45.3131482,9.4888995,Espresso bar.Bar
 R&d cafè lodi,96,4.5,Via della Codignola. 19/21. 26900 Lodi LO,45.323905,9.514318,Bar.Video arcade
 IQOS RESELLER - Roxy Bar Di Cremonesi Massimo. Lodi,108,4.5,Via Antonio Lombardo. 6. 26900 Lodi LO,45.3062204,9.4999864,Bar tabac.Bar
-ardis cafè,112,4.5,Via Felice Cavallotti. 44 A. 26900 Lodi LO,45.3227847,9.5128199,Cafe
-Le Dolci Delizie Bistrot Di Megna Marilena,120,4.5,Viale Piacenza. 48. 26900 Lodi LO,45.2991871,9.5148425,Bar
-Bar Caffe' Marino,127,4.5,Via Camillo Benso Conte di Cavour. 46. Via Volturno. 19. 26900 Lodi LO,45.3144154,9.5051589,Bar tabac.Bar
-Bar Pasticceria Tabaccheria Masseroni,152,4.5,Corso Roma. 84. 26900 Lodi LO,45.3122695,9.5043173,Bar
-Green Corner Ristorante Vineria,239,4.5,Via Borgo Adda. 1. 26900 Lodi LO,45.3175353,9.5078817,Restaurant.Vegan restaurant
-The Noble,260,4.5,Via Sant'Angelo. 1. 26900 Lodi LO,45.3053851,9.5015896,Restaurant
-Il Pomodoro Pelato,438,4.5,Piazza Mercato. 26900 Lodi LO,45.3146195,9.5043091,Pizza restaurant
-Gelateria Puro & Bio Lodi,769,4.5,Via Acquedotto. 3. 26900 Lodi LO,45.3115476,9.4980991,Ice cream shop.Chocolate artisan.Creperie.Delivery service.Frozen yogurt shop
-Wellington Pub,852,4.5,Via Felice Cavallotti. 17. 26900 Lodi LO,45.321162,9.510654,Pub
-Felice Angelo,56,4.4,Via Fratelli Lupi. 1. 26900 Lodi LO,45.3227997,9.5124334,Bar
-Pizzeria Delfino da asporto di Esposito Gaetano,79,4.4,Via Felice Cavallotti. 33. 26900 Lodi LO,45.3226753,9.5123378,Pizza restaurant
-Mabi's S.n.c.,90,4.4,Via del Pulignano. 2. 26900 Lodi LO,45.3200627,9.4835397,Bar
 Pizzeria Kairos,109,4.4,Viale Dalmazia. 7. 26900 Lodi LO,45.3128045,9.4975241,Pizza restaurant.Restaurant
+A Modo Mio,111,3.6,Via Emilia. 2. 26836 Montanaso Lombardo LO,45.3244583,9.4593754,Pizza restaurant
+ardis cafè,112,4.5,Via Felice Cavallotti. 44 A. 26900 Lodi LO,45.3227847,9.5128199,Cafe
+Osteria Del Rugantino,114,4,Via del Capanno. 43. 26900 Lodi LO,45.3251648,9.491635,Restaurant
+Le Dolci Delizie Bistrot Di Megna Marilena,120,4.5,Viale Piacenza. 48. 26900 Lodi LO,45.2991871,9.5148425,Bar
+Sfizio Misto Caffetteria Fast Food,120,4.6,Via Incoronata. 5. 26900 Lodi LO,45.3144285,9.502282,Bar & grill.Cafeteria.Fast food restaurant.Hamburger restaurant
+ART Cafe' S.A.S. Di Fasoli Luca &C.,121,4.6,Via Lodivecchio. 7. 26900 Lodi LO,45.3117502,9.4912602,Bar
 Bar La Gatta,124,4.4,Corso Giuseppe Mazzini. 98. 26900 Lodi LO,45.3045962,9.5088101,Bar
+Bar Caffe' Marino,127,4.5,Via Camillo Benso Conte di Cavour. 46. Via Volturno. 19. 26900 Lodi LO,45.3144154,9.5051589,Bar tabac.Bar
+Maracuja Frullateria Bar,130,4.6,Via Ottone Morena. 8. 26900 Lodi LO,45.3124107,9.5006329,Bar
 Bar Valente,144,4.4,Via Aldo Moro. 48. 26900 Lodi LO,45.3002757,9.4957846,Bar.Tobacco shop
+Hotel ristorante Castello,144,4,Piazza Castello. 2. 26900 Lodi LO,45.312563,9.499995,Restaurant.Bed & breakfast.Extended stay hotel.Italian restaurant.Hotel
+La Fortuna,149,4.2,Via San Bassiano. 17/a. 26900 Lodi LO,45.3119932,9.4966514,Chinese takeaway.Chinese restaurant
+Bar Pasticceria Tabaccheria Masseroni,152,4.5,Corso Roma. 84. 26900 Lodi LO,45.3122695,9.5043173,Bar
 PokeBon | Hawaiian poke a Lodi,155,4.4,Via Sant'Angelo. 10. 26900 Lodi LO,45.3057219,9.4997222,Poke bar
 Il Datterino Di Bendaj Baci,157,4.4,Via S. Giacomo. 9. 26900 Lodi LO,45.3166366,9.5070889,Pizza restaurant
+Bar Seven,161,3.8,Via Walter Tobagi. 4. 26900 Lodi LO,45.300335,9.4994586,Bar
+Vikand - Birreria & Gineria,175,4,Piazza della Vittoria. N.36. 26900 Lodi LO,45.3137095,9.5020314,Beer hall.Bar & grill.Cocktail bar.Espresso bar.Fast food restaurant.Hamburger restaurant.Pub
+Pizza Channel,201,3.9,Viale Pavia. 58. 26900 Lodi LO,45.3050211,9.4906838,Pizza delivery.Pizza restaurant
+Napoli in Pizza - Pizzeria Napoletana da Asporto,203,4.7,Via Cavour. 48. 26900 Lodi LO,45.3144753,9.5053245,Pizza restaurant
+Pizzeria mani in pasta,203,4.7,Via Giovanni Carnovali. 8. 26900 Lodi LO,45.3004717,9.5166456,Pizza restaurant
 Fiaschetteria Lodi,205,4.4,Via Volturno. 33. 26900 Lodi LO,45.3142015,9.5053349,Wine bar
-Piadineria #Piadatime,273,4.4,Via Giuseppe Saragat. 29. 26900 Lodi LO,45.3012132,9.4955609,Fast food restaurant
-Fuorilodi S.A.S.,395,4.4,Via Antonino Caponnetto Magistrato. 26900 Lodi LO,45.3269444,9.5169444,Restaurant
-Kokoro Sushi Restaurant,594,4.4,Via Defendente Lodi. 80. 26900 Lodi LO,45.3184305,9.4990579,Asian fusion restaurant.Asian restaurant.Chinese restaurant.Fusion restaurant.Japanese restaurant.Seafood restaurant.Sushi restaurant.Tempura restaurant
-Osteria per Bacco Lodi,597,4.4,Cascina Cavrigo. 35. 26900 Lodi LO,45.2937488,9.5227942,Restaurant.Italian restaurant.Seafood restaurant
-Pizzeria Castello,611,4.4,Piazza Castello. 4. 26900 Lodi LO,45.3125104,9.4998714,Pizza restaurant.Historical place
-Future Fusion,718,4.4,Via Pietro Ferrabini. 5. 26900 Lodi LO,45.3208726,9.5089011,Japanese restaurant.Bar.Mediterranean restaurant.Seafood restaurant.Sushi restaurant
-KM 298,720,4.4,Strada statale 9 al km298 26900. 26900 Lodi LO,45.3046006,9.481463,Pub
-Ristorante Pizzeria La Fleur,6,4.3,Via Achille Grandi. 7. 26900 Lodi LO,45.3002143,9.492241,Pizza restaurant.Restaurant
-Pizza Tour,10,4.3,Via Cavour. 48. 26900 Lodi LO,45.3144627,9.5053411,Restaurant
-Margi Snc Di Serati Arnaldo E C.,11,4.3,Viale Italia. 84. 26900 Lodi LO,45.2987978,9.5130825,Bar
-Ristorante Castello,18,4.3,Piazza Castello. 2. 26900 Lodi LO,45.3125483,9.4999687,Restaurant
-Bar Arena Tabacchi,22,4.3,Via Borgo Adda. 2. 26900 Lodi LO,45.3173376,9.5078221,Bar
-Lodi Cafè,45,4.3,Viale Pavia. 14/b. 26900 Lodi LO,45.3077328,9.4964808,Espresso bar
-Buona Pizza,48,4.3,Via Secondo Cremonesi. 36. 26900 Lodi LO,45.3124895,9.5098396,Restaurant
-Bar Italia,51,4.3,Viale Italia. 84. 26900 Lodi LO,45.2987978,9.5130825,Bar
-Ex icaro Cafè ora Orchidea,85,4.3,Viale Rimembranze. 38. 26900 Lodi LO,45.3055312,9.5065103,Espresso bar.Bar
-Mistral Cafe',95,4.3,Piazzale Fiume.angolo. Via Acquedotto. 26900 Lodi LO,45.3115234,9.4979343,Bar tabac.Southern Italian restaurant.Tobacco shop
-AL SAZIO Ristorante,256,4.3,Via Volturno. 27. 26900 Lodi LO,45.3143416,9.5052852,Restaurant
-Atypical #drinkfoodandmore,325,4.3,Viale Pavia. 2. 26900 Lodi LO,45.3086315,9.4982288,Restaurant.Small plates restaurant
-Haiku Fusion Restaurant,422,4.3,Viale Dalmazia. 4. 26900 Lodi LO,45.3133333,9.4983333,Asian fusion restaurant.Chinese restaurant.Japanese restaurant.Pan-Asian restaurant.Seafood restaurant.Sushi restaurant
-Kanpai Sushi Restaurant,439,4.3,Via Gandhi. 1. 26817 San Martino in Strada LO,45.2833512,9.5370059,Sushi restaurant
-Ristorante Alta Marea,461,4.3,Via Walter Tobagi. 8. 26900 Lodi LO,45.29995,9.4996,Restaurant.Pizza restaurant
-Gaffurio,539,4.3,Via Gaffurio. 11. 26900 Lodi LO,45.3133805,9.5041076,Restaurant.Italian restaurant.Mediterranean restaurant
-Pizzeria Genovese 2,566,4.3,Via del Chiosino. 8. 26900 Lodi LO,45.3075714,9.4834051,Pizza restaurant.Restaurant
-The Bridge Pub,567,4.3,Via X Maggio. 6. 26900 Lodi LO,45.3177012,9.5076907,Pub
-Ristorante Koora Sushi,590,4.3,Viale Piacenza. 40. 26900 Lodi LO,45.2999922,9.5140033,Sushi restaurant.Restaurant
-The River Saloon,622,4.3,8FQX+23M. 26900 Lodi LO,45.3373559,9.4977953,Restaurant
-La Coldana,811,4.3,via del costino. Cascina Coldana. 26900 Lodi LO,45.3041215,9.5176123,Fine dining restaurant.Italian restaurant
-Al Sazio Wasken Ristorante con pizza,13,4.2,Piazzale degli Sport. 1. 26900 Lodi LO,45.298501,9.5051459,Restaurant
-G.V. Bar,17,4.2,26900 Lodi. Province of Lodi,45.3130534,9.4883102,Bar
-I Love Poke Lodi,41,4.2,Piazza della Vittoria. 8. 26900 Lodi LO,45.3139112,9.5031059,Poke bar
-La Fortuna,149,4.2,Via San Bassiano. 17/a. 26900 Lodi LO,45.3119932,9.4966514,Chinese takeaway.Chinese restaurant
-Tadim Istanbul Pizzeria-Kebap,279,4.2,Via Sant'Angelo. 8. 26900 Lodi LO,45.3057121,9.4998672,Restaurant.Kebab shop.Pizza restaurant
-La Piadineria,307,4.2,Via San Bassiano. 19. 26900 Lodi LO,45.3119826,9.4965044,Fast food restaurant.Family restaurant.Health food restaurant.Italian restaurant.Takeout restaurant.Restaurant.Small plates restaurant.Traditional restaurant
-i-sushi 中餐 寿司 亚洲风味,381,4.2,Viale Dalmazia. 7. 26900 Lodi LO,45.3129639,9.4975607,Sushi restaurant
-ENORAFO,624,4.2,Piazza della Vittoria. 47. 26900 Lodi LO,45.3143311,9.5018558,Tapas bar.Restaurant.Wine bar
-Ristorante La Muraglia Cinese,855,4.2,Viale Milano. 90. 26900 Lodi LO,45.3236122,9.4635935,Restaurant
-Fuori Modena,1441,4.2,Via Mosè Bianchi. 26900 Lodi LO,45.3162857,9.5137548,Restaurant
-Hong Kong,1487,4.2,V.le Genova. 6. 26900 Lodi LO,45.3218155,9.4882259,Sushi restaurant.Chinese restaurant.Japanese restaurant.Meal delivery.Sushi takeaway
-Bar Silver,7,4.1,Via Maestri del Lavoro. 2A. 26900 Lodi LO,45.3005331,9.4940934,Bar
-Bar Tabacchi,9,4.1,Via Felice Cavallotti. 14. 26900 Lodi LO,45.3207151,9.5105799,Bar
-La Caffetteria Del Corso Snc,11,4.1,Corso Vittorio Emanuele II. 58. 26900 Lodi LO,45.3130295,9.5004384,Bar
-Bar Davide,40,4.1,Corso Adda. 94. 26900 Lodi LO,45.3170604,9.507051,Bar
-Smoothcafè,44,4.1,Viale Savoia. 9D. 26900 Lodi LO,45.3151839,9.5110696,Espresso bar.Gastropub.Sandwich shop.Wine bar
-Bar 168,71,4.1,Viale Italia. 65. 26900 Lodi LO,45.3003971,9.5118568,Bar
 Fashion Cafè,208,4.1,Viale Pavia. 22. 26900 Lodi LO,45.3066326,9.4944734,Espresso bar.Bar
+Pizzeria Armandino,211,4,Via Marsala. 94. 26900 Lodi LO,45.3104149,9.5048923,Pizza restaurant.Italian restaurant
+FER - Forneria Artigiana,216,4.6,Via Marsala. 38. 26900 Lodi LO,45.311962,9.5034105,Pizza restaurant.Bakery.Pastry shop
+Desigual Cafè & Restaurant,233,4,Via Codognino. 26854 Cornegliano Laudense LO,45.2892135,9.4730847,Pizza restaurant.Restaurant
+Green Corner Ristorante Vineria,239,4.5,Via Borgo Adda. 1. 26900 Lodi LO,45.3175353,9.5078817,Restaurant.Vegan restaurant
+AL SAZIO Ristorante,256,4.3,Via Volturno. 27. 26900 Lodi LO,45.3143416,9.5052852,Restaurant
+Dal baffo,258,3.6,Via Vecchia Cremonese. 2. 26900 Lodi LO,45.3044729,9.5094405,Pizza restaurant.Beer hall.Pizza delivery.Restaurant.Small plates restaurant
+The Noble,260,4.5,Via Sant'Angelo. 1. 26900 Lodi LO,45.3053851,9.5015896,Restaurant
+Volpi F.Lli,267,4.7,Viale Pavia. 35. 26900 Lodi LO,45.3042379,9.4898992,Bakery.Pastry shop
 Mod Sushi Restaurant,271,4.1,Piazzale 3 Agosto. 26900 Lodi LO,45.3180923,9.4987764,Sushi restaurant.Night club
+Osteria del Capanno,273,4,Via Castelfidardo. 17. 26900 Lodi LO,45.3110747,9.5021042,Restaurant.Italian restaurant.Seafood restaurant
+Piadineria #Piadatime,273,4.4,Via Giuseppe Saragat. 29. 26900 Lodi LO,45.3012132,9.4955609,Fast food restaurant
+Biffino Bistrot,278,4,Corso Roma. 163. 26900 Lodi LO,45.3102448,9.5064245,Bar.Agricultural production.Deli
+Tadim Istanbul Pizzeria-Kebap,279,4.2,Via Sant'Angelo. 8. 26900 Lodi LO,45.3057121,9.4998672,Restaurant.Kebab shop.Pizza restaurant
+La Petite Mondina,286,4.6,Via Marsala. 33. 26900 Lodi LO,45.3123605,9.5033068,Restaurant.Italian restaurant
+La Piadineria,307,4.2,Via San Bassiano. 19. 26900 Lodi LO,45.3119826,9.4965044,Fast food restaurant.Family restaurant.Health food restaurant.Italian restaurant.Takeout restaurant.Restaurant.Small plates restaurant.Traditional restaurant
 Osteria Vecchia Lodi Di Clerici Francesca,321,4.1,Via Lago di Garda. 21. 26900 Lodi LO,45.3108002,9.5150777,Italian restaurant.Lombardian restaurant
+Atypical #drinkfoodandmore,325,4.3,Viale Pavia. 2. 26900 Lodi LO,45.3086315,9.4982288,Restaurant.Small plates restaurant
+Calicantus Food,351,3.9,Corso Giuseppe Mazzini. 18. 26900 Lodi LO,45.3087829,9.5062458,Pizza restaurant.Restaurant
+Osteria la Tarantola,351,4,Strada provinciale. 26834 Cadilana LO,45.3341064,9.5422344,Restaurant
 Mena Mè Salento Bistrot,360,4.1,Corso Giuseppe Mazzini. 64. 26900 Lodi LO,45.3069989,9.5072402,Pizza restaurant.Bistro.Pizza delivery.Pizza takeaway
+Al Trentaduecafè,365,3.8,Piazza Castello. 32. 26900 Lodi LO,45.3127613,9.4999558,Bar
+i-sushi 中餐 寿司 亚洲风味,381,4.2,Viale Dalmazia. 7. 26900 Lodi LO,45.3129639,9.4975607,Sushi restaurant
 La Piazzetta Bistrò,381,4.1,Via Giuseppe Garibaldi. 48. Piazza San Lorenzo. 6. 26900 Lodi LO,45.3123008,9.5009965,Bar
 21/23 Vineria,389,4.1,Corso Giuseppe Mazzini. 21. 26900 Lodi LO,45.308906,9.5066898,Restaurant.Wine bar
 Agripizza,395,4.1,Viale Milano. 95. 26900 Lodi LO,45.3214806,9.4824853,Pizza restaurant.Restaurant
+Fuorilodi S.A.S.,395,4.4,Via Antonino Caponnetto Magistrato. 26900 Lodi LO,45.3269444,9.5169444,Restaurant
+Pizzeria Ristorante Grotta Azzurra,410,3.9,Via Volturno. 17. 26900 Lodi LO,45.3144899,9.5050125,Pizza restaurant.Italian restaurant
+Haiku Fusion Restaurant,422,4.3,Viale Dalmazia. 4. 26900 Lodi LO,45.3133333,9.4983333,Asian fusion restaurant.Chinese restaurant.Japanese restaurant.Pan-Asian restaurant.Seafood restaurant.Sushi restaurant
+Il Pomodoro Pelato,438,4.5,Piazza Mercato. 26900 Lodi LO,45.3146195,9.5043091,Pizza restaurant
+Kanpai Sushi Restaurant,439,4.3,Via Gandhi. 1. 26817 San Martino in Strada LO,45.2833512,9.5370059,Sushi restaurant
+Ristorante Alta Marea,461,4.3,Via Walter Tobagi. 8. 26900 Lodi LO,45.29995,9.4996,Restaurant.Pizza restaurant
 Tadim Kebab Pizzeria,463,4.1,Viale Trento e Trieste. 17. 26900 Lodi LO,45.3092578,9.4992451,Kebab shop.Fast food restaurant.Pizza restaurant
+Officine Adda,477,3.9,Via Sant'Angelo. 11. 26900 Lodi LO,45.3052778,9.4997222,Bar
 Ristorante Pizzeria San Carlo,499,4.1,Via Felice Cavallotti. 60. 26900 Lodi LO,45.3255113,9.5151498,Restaurant.Pizza restaurant.Seafood restaurant
+Gaffurio,539,4.3,Via Gaffurio. 11. 26900 Lodi LO,45.3133805,9.5041076,Restaurant.Italian restaurant.Mediterranean restaurant
+Piadineria La Delizia,541,4.6,Piazzale Fiume. 10. 26900 Lodi LO,45.3115653,9.4976622,Fast food restaurant
+Pizzeria Genovese 2,566,4.3,Via del Chiosino. 8. 26900 Lodi LO,45.3075714,9.4834051,Pizza restaurant.Restaurant
+The Bridge Pub,567,4.3,Via X Maggio. 6. 26900 Lodi LO,45.3177012,9.5076907,Pub
+Pizzeria Il Pirata,568,3.9,Via Gerolamo Cavezzali. 2. 26900 Lodi LO,45.3134117,9.4974002,Pizza restaurant.Beer hall.Pizza delivery.Restaurant
 Caffè Letterario,578,4.1,Via Tito Fanfulla. 3. 26900 Lodi LO,45.3160301,9.5044238,Mediterranean restaurant.Coffee shop
 Il rondò antica osteria con pizza e scrocchia,587,4.1,Via Felice Cavallotti. 28. 26900 Lodi LO,45.3211097,9.5110807,Restaurant
-Ristorante Isola Caprera,699,4.1,Via Isola Caprera. 14. 26900 Lodi LO,45.31633,9.51208,Italian restaurant
-Ristorante Pizzeria San Fereolo srl,727,4.1,Via S. Fereolo. 32. 26900 Lodi LO,45.3061624,9.4859881,Pizza restaurant.Seafood restaurant
-Quartiere Latino,803,4.1,Viale Tigli. 3. 26900 Lodi LO,45.3060806,9.4944361,Tex-Mex restaurant.American restaurant.Mexican restaurant
-Trattoria Torretta,888,4.1,Piazza Angelo Maria Sommariva. 4. 26900 Lodi LO,45.3207564,9.4831666,Restaurant
-Birreria Nuovo Faro,1259,4.1,Via del Capanno. s.n.c. 26900 Lodi LO,45.3278007,9.4879179,Restaurant.American restaurant.Hamburger restaurant.Pizza restaurant.Pub.Sandwich shop
-Coop Caffè,1,4,26900 Lodi. Province of Lodi,45.3023727,9.4856463,Bar
-Le Piramidi - Rosticceria e Pizzeria,9,4,Via Lodino. 97. 26900 Lodi LO,45.3173854,9.5064776,Pizza restaurant
-Bar L' Incontro 2,27,4,Corso Giuseppe Mazzini. 63. 26900 Lodi LO,45.3064055,9.5082429,Bar
-Winny Bar Snc,27,4,Viale Italia. 13. 26900 Lodi LO,45.3020657,9.5096202,Bar
-La Piadineria,43,4,SS 9 Via Emilia. 2. 26836 Montanaso Lombardo LO,45.3253072,9.4592384,Fast food restaurant.Family restaurant.Health food restaurant.Italian restaurant.Takeout restaurant.Restaurant.Small plates restaurant.Traditional restaurant
-New Bar,68,4,Via Tiziano Zalli. 34. 26900 Lodi LO,45.3038983,9.5045199,Bar
-Zii Gaetano,69,4,Via Tiziano Zalli. 24. 26900 Lodi LO,45.3038838,9.5051167,Pizza restaurant.Restaurant
-Osteria Del Rugantino,114,4,Via del Capanno. 43. 26900 Lodi LO,45.3251648,9.491635,Restaurant
-Hotel ristorante Castello,144,4,Piazza Castello. 2. 26900 Lodi LO,45.312563,9.499995,Restaurant.Bed & breakfast.Extended stay hotel.Italian restaurant.Hotel
-Vikand - Birreria & Gineria,175,4,Piazza della Vittoria. N.36. 26900 Lodi LO,45.3137095,9.5020314,Beer hall.Bar & grill.Cocktail bar.Espresso bar.Fast food restaurant.Hamburger restaurant.Pub
-Pizzeria Armandino,211,4,Via Marsala. 94. 26900 Lodi LO,45.3104149,9.5048923,Pizza restaurant.Italian restaurant
-Desigual Cafè & Restaurant,233,4,Via Codognino. 26854 Cornegliano Laudense LO,45.2892135,9.4730847,Pizza restaurant.Restaurant
-Osteria del Capanno,273,4,Via Castelfidardo. 17. 26900 Lodi LO,45.3110747,9.5021042,Restaurant.Italian restaurant.Seafood restaurant
-Biffino Bistrot,278,4,Corso Roma. 163. 26900 Lodi LO,45.3102448,9.5064245,Bar.Agricultural production.Deli
-Osteria la Tarantola,351,4,Strada provinciale. 26834 Cadilana LO,45.3341064,9.5422344,Restaurant
+Ristorante Koora Sushi,590,4.3,Viale Piacenza. 40. 26900 Lodi LO,45.2999922,9.5140033,Sushi restaurant.Restaurant
+Kokoro Sushi Restaurant,594,4.4,Via Defendente Lodi. 80. 26900 Lodi LO,45.3184305,9.4990579,Asian fusion restaurant.Asian restaurant.Chinese restaurant.Fusion restaurant.Japanese restaurant.Seafood restaurant.Sushi restaurant.Tempura restaurant
+Osteria per Bacco Lodi,597,4.4,Cascina Cavrigo. 35. 26900 Lodi LO,45.2937488,9.5227942,Restaurant.Italian restaurant.Seafood restaurant
+Pizzeria Castello,611,4.4,Piazza Castello. 4. 26900 Lodi LO,45.3125104,9.4998714,Pizza restaurant.Historical place
 Ristorante Megu,613,4,Viale Piacenza. 40. 26900 Lodi LO,45.2998581,9.5141459,Chinese restaurant.Japanese restaurant.Restaurant.Seafood restaurant.Sushi restaurant
-McDonald's Lodi Tangenziale Est,2349,4,Nuova Tang. Est. 26900 Lodi LO,45.3009086,9.5227816,Fast food restaurant.Breakfast restaurant.Hamburger restaurant.Restaurant
-Bar Ponte Di Spagnuolo Antonio,11,3.9,Via Po. 5. 26900 Lodi LO,45.3191177,9.5144922,Bar
-Ammar Pizza Kebab,19,3.9,Corso Adda. 104. 26900 Lodi LO,45.3172409,9.507157,Kebab shop
-Tadim,51,3.9,Via Borgo Adda. 80. 26900 Lodi LO,45.3150685,9.5118342,Restaurant
-Pizza Channel,201,3.9,Viale Pavia. 58. 26900 Lodi LO,45.3050211,9.4906838,Pizza delivery.Pizza restaurant
-Calicantus Food,351,3.9,Corso Giuseppe Mazzini. 18. 26900 Lodi LO,45.3087829,9.5062458,Pizza restaurant.Restaurant
-Pizzeria Ristorante Grotta Azzurra,410,3.9,Via Volturno. 17. 26900 Lodi LO,45.3144899,9.5050125,Pizza restaurant.Italian restaurant
-Officine Adda,477,3.9,Via Sant'Angelo. 11. 26900 Lodi LO,45.3052778,9.4997222,Bar
-Pizzeria Il Pirata,568,3.9,Via Gerolamo Cavezzali. 2. 26900 Lodi LO,45.3134117,9.4974002,Pizza restaurant.Beer hall.Pizza delivery.Restaurant
+The River Saloon,622,4.3,8FQX+23M. 26900 Lodi LO,45.3373559,9.4977953,Restaurant
+ENORAFO,624,4.2,Piazza della Vittoria. 47. 26900 Lodi LO,45.3143311,9.5018558,Tapas bar.Restaurant.Wine bar
 ReB by ReBasilico,633,3.9,Via S. Fereolo. 54. 26900 Lodi LO,45.3039712,9.4890024,Pizza restaurant
-Caffè Nazionale,848,3.9,Piazza della Vittoria. 44. 26900 Lodi LO,45.3140609,9.5020443,Restaurant.Cafeteria.Cake shop.Pizza restaurant.Wine bar
-Bar Seven,161,3.8,Via Walter Tobagi. 4. 26900 Lodi LO,45.300335,9.4994586,Bar
-Al Trentaduecafè,365,3.8,Piazza Castello. 32. 26900 Lodi LO,45.3127613,9.4999558,Bar
+Ristorante Isola Caprera,699,4.1,Via Isola Caprera. 14. 26900 Lodi LO,45.31633,9.51208,Italian restaurant
+Vasinikò,717,3.7,Corso Umberto I. 60. 26900 Lodi LO,45.3156012,9.5048055,Pizza restaurant
+Future Fusion,718,4.4,Via Pietro Ferrabini. 5. 26900 Lodi LO,45.3208726,9.5089011,Japanese restaurant.Bar.Mediterranean restaurant.Seafood restaurant.Sushi restaurant
+KM 298,720,4.4,Strada statale 9 al km298 26900. 26900 Lodi LO,45.3046006,9.481463,Pub
+Ristorante Pizzeria San Fereolo srl,727,4.1,Via S. Fereolo. 32. 26900 Lodi LO,45.3061624,9.4859881,Pizza restaurant.Seafood restaurant
 Al Portico Dei Pensieri,756,3.8,Piazza della Vittoria. 22. 26900 Lodi LO,45.3135489,9.5025409,Restaurant.Chophouse restaurant.Hamburger restaurant.Pizza restaurant
 Pizzeria Pane e Farina,768,3.8,Viale Italia. 60. 26900 Lodi LO,45.2998504,9.5120583,Pizza restaurant
+Gelateria Puro & Bio Lodi,769,4.5,Via Acquedotto. 3. 26900 Lodi LO,45.3115476,9.4980991,Ice cream shop.Chocolate artisan.Creperie.Delivery service.Frozen yogurt shop
+Quartiere Latino,803,4.1,Viale Tigli. 3. 26900 Lodi LO,45.3060806,9.4944361,Tex-Mex restaurant.American restaurant.Mexican restaurant
+La Coldana,811,4.3,via del costino. Cascina Coldana. 26900 Lodi LO,45.3041215,9.5176123,Fine dining restaurant.Italian restaurant
+Caffè Nazionale,848,3.9,Piazza della Vittoria. 44. 26900 Lodi LO,45.3140609,9.5020443,Restaurant.Cafeteria.Cake shop.Pizza restaurant.Wine bar
+Wellington Pub,852,4.5,Via Felice Cavallotti. 17. 26900 Lodi LO,45.321162,9.510654,Pub
+Ristorante La Muraglia Cinese,855,4.2,Viale Milano. 90. 26900 Lodi LO,45.3236122,9.4635935,Restaurant
+Trattoria Torretta,888,4.1,Piazza Angelo Maria Sommariva. 4. 26900 Lodi LO,45.3207564,9.4831666,Restaurant
 Fontana,982,3.8,Viale Torino. 1. 26900 Lodi LO,45.3217117,9.4860835,Restaurant.Italian restaurant.Pizza restaurant.Seafood restaurant
-Bar Dragoni Simona,12,3.7,Via della Torretta. 2. 26900 Lodi LO,45.3215246,9.4827668,Bar
-Vasinikò,717,3.7,Corso Umberto I. 60. 26900 Lodi LO,45.3156012,9.5048055,Pizza restaurant
-A Modo Mio,111,3.6,Via Emilia. 2. 26836 Montanaso Lombardo LO,45.3244583,9.4593754,Pizza restaurant
-Dal baffo,258,3.6,Via Vecchia Cremonese. 2. 26900 Lodi LO,45.3044729,9.5094405,Pizza restaurant.Beer hall.Pizza delivery.Restaurant.Small plates restaurant
+Birreria Nuovo Faro,1259,4.1,Via del Capanno. s.n.c. 26900 Lodi LO,45.3278007,9.4879179,Restaurant.American restaurant.Hamburger restaurant.Pizza restaurant.Pub.Sandwich shop
 Burger King,1405,3.6,Viale Pavia. 98. 26900 Lodi LO,45.302766,9.4870124,Hamburger restaurant
-Ji Xue Hua,4,3.5,17/A Via S. Bassiano E Alberto. Lodi. Lo 26900,45.3119942,9.496652,Chinese takeaway.Chinese restaurant
-Pecora Nera,4,3.5,Via Borgo Adda. 1. 26900 Lodi LO,45.3175774,9.5078182,Cocktail bar
-Briciole E Delizie,27,2.9,Via Walter Tobagi. 8. 26900 Lodi LO,45.2999488,9.499588,Organic shop.Dessert shop
-Fiorital Corner - Lodi,3,2,Viale Pavia. 102. 26900 Lodi LO,45.3023208,9.4855943,Sushi takeaway
+Fuori Modena,1441,4.2,Via Mosè Bianchi. 26900 Lodi LO,45.3162857,9.5137548,Restaurant
+Hong Kong,1487,4.2,V.le Genova. 6. 26900 Lodi LO,45.3218155,9.4882259,Sushi restaurant.Chinese restaurant.Japanese restaurant.Meal delivery.Sushi takeaway
+McDonald's Lodi Tangenziale Est,2349,4,Nuova Tang. Est. 26900 Lodi LO,45.3009086,9.5227816,Fast food restaurant.Breakfast restaurant.Hamburger restaurant.Restaurant

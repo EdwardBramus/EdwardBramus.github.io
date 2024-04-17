@@ -36,7 +36,7 @@ var inputValue = inputElement.property("value").toLowerCase().trim();
 
 //Qui avviene la magia: filtro in base al nome del locale partendo dall'input utente
 
-    var filteredData = PostiLodi.filter(PostiLodi => PostiLodi.name.toLowerCase().trim().includes(inputValue));
+    var filteredData = PostiLodi.filter(PostiLodi => PostiLodi.categories.toLowerCase().trim().includes(inputValue));
 
 //Secondo check: l'input utente è assente nel csv
 
@@ -51,7 +51,8 @@ var inputValue = inputElement.property("value").toLowerCase().trim();
 //Qui viene stampata la tabella finale
 
     for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
-      "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
+      "<td>" + (output[i]['name'])+"</a>"+"</td>" +
+      "<td>" + (output[i]['fulladdr'])+"</td>" + 
       "<td>" + (output[i]['reviews'])+"</td>" +
       "<td>" + (output[i]['rating'])+"</td>" ) }};
 
