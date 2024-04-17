@@ -17,14 +17,14 @@ d3.csv("PostiLodi.csv").then(function (data) {
     var inputValue = inputElement.property("value").toLowerCase().trim();
 
     if (inputValue.length < 3){
-      d3.select("p").classed('noresults2', true).html("<center><strong>Please try using more than 5 characters to avoid too many results!</strong>")
+      d3.select("p").classed('noresults2', true).html("<center><strong>Parola troppo corta! Digita almeno 3 lettere!</strong>")
       inputValue = "Something to give no results"
     }
 
     var filteredData = PostiLodi.filter(PostiLodi => PostiLodi.name.toLowerCase().trim().includes(inputValue));
 
     if (filteredData.length === 0 && inputValue !== "Something to give no results"){
-      d3.select("p").classed('noresults', true).html("<center><strong>No results. Please check your spelling!</strong>")
+      d3.select("p").classed('noresults', true).html("<center><strong>Nessun risultato trovato!</strong>")
     }
 
     output = _.sortBy(filteredData, 'rating').reverse()
