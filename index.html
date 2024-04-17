@@ -33,7 +33,10 @@
 
   <link href="styles.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+  <link rel="icon" href="resources/Favicon.ico">
 </head>
 
 
@@ -43,52 +46,136 @@
     <div class="container h-100 align-items-center">
       <div class="row">
         <div class="col-md-12">
-          <div class="mx-auto">
-            <br>
-            <br>
-            <br>
-            <header>
-                <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+            <!-- TAB INIZIALE -->
+            <div class="tab">
+                <div class="mx-auto">
                 <br>
-                <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
-            </header>
+                <br>
+                <br>
+                <br>
+                <br>
+                <header>
+                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+                    <br>
+                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
+                </header>
 
-            <!-- VECCHIO TITLE <h1 class="title inner-shadow-text">ilMagnone</h1> -->
-            <h2 class=>Inserisci la tipologia di locale a Lodi dove vorresti andare!</h2>
-            <form id="form">
-
-              <div class="input-group input-group-newsletter">
-
-                <input class="form-control" id="user-input" placeholder="Pizzeria, Pub, Bar..."
-                  aria-label="Enter email..." aria-describedby="submit-button">
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="boton input-group-append" id="boton">
-                  <button class="custom-button boton btn btn-secondary" type="button" id="button">Find Places!</button>
+                <form id="form">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Scegli per me</button>
+                </form>
                 </div>
-              </div>
-            </form>
+            </div>
 
-            <p class="noresults">
-            </p>
-            <p class="noresults2">Nel caso il risultato non dovesse apparire dopo qualche secondo controlla la tua connessione!
-            </p>
+            <!-- TAB SCEGLI POSTO -->
+            <div class="tab">
+                <div class="mx-auto">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <header>
+                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+                    <br>
+                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
+                </header>
 
-            <table class="table" cellpadding="10">
-              <thead>
-                <tr>
-                  <th scope="col">Name</th>
-                  <th scope="col">Reviews</th>
-                  <th scope="col">Rating</th>
+                <h2 class=>Scegli in quale posto vorresti andare!</h2>
+                <form id="form">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Prossima tab</button>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Posto 1</button>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Posto 2</button>
+                </form>
+                </div>
+            </div>
 
-                </tr>
-              </thead>
-                <tbody>
+            <!-- TAB CATEGORIE -->
+            <div class="tab">
+                <div class="mx-auto">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <header>
+                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+                    <br>
+                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
+                </header>
+
+                <h2 class=>Scegli la categoria del posto</h2>
+                <form id="form">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Prossima tab</button>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Categoria 1</button>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Categoria 2</button>
+                    <br>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Categoria 3</button>
+                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Categoria 4</button>
+                </form>
+                </div>
+            </div>
+
+            <!-- RISULTATI -->
+            <div class="tab">
+                <div class="mx-auto">
+                <br>
+                <br>
+                <br>
+                <header>
+                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+                    <br>
+                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
+                </header>
+
+                <!-- VECCHIO TITLE <h1 class="title inner-shadow-text">ilMagnone</h1> -->
+                <h2 class=>Inserisci la tipologia di locale a Lodi dove vorresti andare!</h2>
+                <form id="form">
+
+                    <div class="input-group input-group-newsletter">
+
+                    <input class="form-control" id="user-input" placeholder="Pizzeria, Pub, Bar..."
+                        aria-label="Enter email..." aria-describedby="submit-button">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="boton input-group-append" id="boton">
+                        <button class="custom-button boton btn btn-secondary" type="button" id="button">Find Places!</button>
+                    </div>
+                    </div>
+                </form>
+
+                <p class="noresults">
+                </p>
+                <p class="noresults2">Nel caso il risultato non dovesse apparire dopo qualche secondo controlla la tua connessione!
+                </p>
+
+                <table class="table" cellpadding="10">
+                    <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Reviews</th>
+                        <th scope="col">Rating</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
                   
-                </tbody>
-          </div>
+                    </tbody>
+                </div>
+            </div>
         </div>
 
       </div>
@@ -101,6 +188,7 @@
   </header>
 
   <script src="app.js"></script>
+  <script src="wizard.js"></script>
 
 
 </body>
