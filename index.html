@@ -20,7 +20,7 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" /> -->
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Movies!</title>
+  <title>ilMagnone</title>
 
   <link rel="icon" type="image/x-icon" href="assets/img/film.svg" />
   <!-- Font Awesome icons (free version)-->
@@ -32,18 +32,13 @@
   <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet" />
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
-
+  <!-- Custom CSS + Fonts + Icons -->
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
 </head>
 
-
-
-
 <body>
- 
-
-
   <header class="mas">
     <div class="container h-100 align-items-center">
       <div class="row">
@@ -52,7 +47,13 @@
             <br>
             <br>
             <br>
-            <h1 class=>Find Restaurants!</h1>
+            <header>
+                <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+                <br>
+                <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
+            </header>
+
+            <!-- VECCHIO TITLE <h1 class="title inner-shadow-text">ilMagnone</h1> -->
             <h2 class=>Enter the name of a place!</h2>
             <form id="form">
 
@@ -65,7 +66,7 @@
                 <br>
                 <br>
                 <div class="boton input-group-append" id="boton">
-                  <button class="boton btn btn-secondary" type="button" id="button">Find Places!</button>
+                  <button class="custom-button boton btn btn-secondary" type="button" id="button">Find Places!</button>
                 </div>
               </div>
             </form>
