@@ -1,3 +1,5 @@
+//Il Modulo D3 carica il csv e dopodichè lo filtra...
+
 d3.csv("PostiLodi.csv").then(function (data) {
 
   var PostiLodi = data;
