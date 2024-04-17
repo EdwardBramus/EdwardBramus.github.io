@@ -27,20 +27,28 @@ d3.event.preventDefault();
 var inputElement =  d3.select("#user-input");    
 var inputValue = inputElement.property("value").toLowerCase().trim();
 
-//Primo check: l'input dell'utente è troppo breve 
+//Primo check: l'input dell'utente è troppo breve...
+
     if (inputValue.length < 3){
       d3.select("p").classed('noresults2', true).html("<center><strong>Parola troppo corta! Digita almeno 3 lettere!</strong>")
       inputValue = "Something to give no results"
     }
 
-//Qui avviene la magia: 
+//Qui avviene la magia: filtro in base al nome del locale partendo dall'input utente
+
     var filteredData = PostiLodi.filter(PostiLodi => PostiLodi.name.toLowerCase().trim().includes(inputValue));
+
+//Secondo check: l'input utente è assente nel csv
 
     if (filteredData.length === 0 && inputValue !== "Something to give no results"){
       d3.select("p").classed('noresults', true).html("<center><strong>Nessun risultato trovato!</strong>")
     }
 
+//Definizione della matrice output giá ordinata dal voto più alto a quello più basso 
+
     output = _.sortBy(filteredData, 'rating').reverse()
+
+//Qui viene stampata la tabella finale
 
     for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
       "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
