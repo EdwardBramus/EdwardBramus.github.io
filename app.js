@@ -15,17 +15,16 @@ d3.csv("PostiLodi.csv").then(function (data) {
 
 //Definizione della funzione funEnter
 
-  function runEnter() {
+function runEnter() {
 
-    d3.select("tbody").html("")
-    d3.selectAll("p").classed('noresults', true).html("")
-    
-d3.event.preventDefault();
+  d3.select("tbody").html("")
+  d3.selectAll("p").classed('noresults', true).html("")
+  d3.event.preventDefault();
 
 //Viene preso in entrata l'input dell'utente e poi ripulito nella riga successiva come nuova variabile...
     
-var inputElement =  d3.select("#user-input");    
-var inputValue = inputElement.property("value").toLowerCase().trim();
+  var inputElement =  d3.select("#user-input");    
+  var inputValue = inputElement.property("value").toLowerCase().trim();
 
 //Primo check: l'input dell'utente è troppo breve...
 
@@ -51,7 +50,7 @@ var inputValue = inputElement.property("value").toLowerCase().trim();
 //Qui viene stampata la tabella finale
 
     for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
-      "<td>" + prova (output[i]['name']) +"</a>"+"</td>" +
+      "<td>" + (provaA) + (output[i]['name']) +"</a>"+"</td>" +
       "<td>" + (output[i]['fulladdr'])+"</td>" + 
       "<td>" + (output[i]['reviews'])+"</td>" + 
       "<td>" + (output[i]['rating'])+"</td>" ) }};
