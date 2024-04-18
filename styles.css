@@ -38,27 +38,25 @@ body {
 }
 
 #svg-title {
-  width: 50%;
+  width: 70%;
   height: auto;
-  margin-right: 20px;
 }
 
 #svg-logo {
-  width: 8%;
+  width: 10%;
   height: auto;
-  margin-right: 20px;
 }
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
   #svg-title {
     width: 100%;
-    margin: 20px;
+    margin: 2%;
   }
 
   #svg-logo {
     width: 18%;
-    margin: 20px;
+    margin: 2%;
   }
 }
 

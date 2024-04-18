@@ -1,201 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Parte del cazzo su Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5YCMXVCN8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-N5YCMXVCN8');
+        </script>
+        <!-- Tutta la parte dei Metadati -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ilMagnone</title>
+        <!-- Script per fare il sortby nel js -->
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+        <!-- Script di D3, il cuore pulsante del searching -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- Sezione dedicata a CSS e Fonts e altro -->
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+        <link rel="icon" href="resources/Favicon.ico">
+    </head>
+    <body>
+        <header class="mas">
+            <div class="container h-100 align-items-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mx-auto">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
 
-<head>
+                            <!-- COMMON HEADER -->
+                            <header>
+                                <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
+                                <br>
+                                <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
+                                <p id="geolocation"></p>
+                            </header>
 
-  <!-- Parte del cazzo su Google Analytics -->
+                            <!-- TAB INIZIALE -->
+                            <div class="tab">
+                                <form id="form">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Scegli per me</button>
+                                </form>
+                            </div>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5YCMXVCN8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-N5YCMXVCN8');
-  </script>
+                            <!-- TAB SCEGLI POSTO -->
+                            <div class="tab">
+                                <form id="form">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h2 class=>Scegli in quale posto vorresti andare!</h2>
+                                <form id="form">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="getLocation(); nextPrev(1)">Lodi</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Pavia</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Piacenza</button>
+                                </form>
+                                </form>
+                            </div>
 
-<!-- Tutta la parte dei Metadati -->
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>ilMagnone</title>
-
-<!-- Script per fare il sortby nel js -->
-
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
-
-<!-- Script di D3, il cuore pulsante del searching -->
-
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-
-  <!-- Sezione dedicata a CSS e Fonts e altro -->
-
-  <link href="styles.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
-  <link rel="icon" href="resources/Favicon.ico">
-</head>
-
-
-
-<body>
-  <header class="mas">
-    <div class="container h-100 align-items-center">
-      <div class="row">
-        <div class="col-md-12">
-            <!-- TAB INIZIALE -->
-            <div class="tab">
-                <div class="mx-auto">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <header>
-                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
-                    <br>
-                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
-                </header>
-
-                <form id="form">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Scegli per me</button>
-                </form>
-                </div>
-            </div>
-
-            <!-- TAB SCEGLI POSTO -->
-            <div class="tab">
-                <div class="mx-auto">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <header>
-                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
-                    <br>
-                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
-                </header>
-
-                <h2 class=>Scegli in quale posto vorresti andare!</h2>
-                <form id="form">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Lodi</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Pavia</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Piacenza</button>
-                </form>
-                </div>
-            </div>
-
-            <!-- TAB CATEGORIE -->
-            <div class="tab">
-                <div class="mx-auto">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <header>
-                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
-                    <br>
-                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
-                </header>
-
-                <h2 class=>Scegli la categoria del posto</h2>
-                <form id="form">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Ricerca Manuale</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Ristorante</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Pizza</button>
-                    <br>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Sushi</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Bar</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Pub</button>
-                    <br>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Forno</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Sushi</button>
-                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Berlusconi</button>
-                </form>
-                </div>
-            </div>
-
-            <!-- RISULTATI -->
-            <div class="tab">
-                <div class="mx-auto">
-                <br>
-                <br>
-                <br>
-                <header>
-                    <object data="resources/Logo.svg" type="image/svg+xml" id="svg-logo"></object>
-                    <br>
-                    <object data="resources/HeaderTitle.svg" type="image/svg+xml" id="svg-title"></object>
-                </header>
-
-                <!-- VECCHIO TITLE <h1 class="title inner-shadow-text">ilMagnone</h1> -->
-                <h2 class=>Inserisci la tipologia di locale a Lodi dove vorresti andare!</h2>
-                <form id="form">
-
-                    <div class="input-group input-group-newsletter">
-
-                    <input class="form-control" id="user-input" placeholder="Pizzera, Pub, Sushi, Bar..."
-                        aria-label="Enter email..." aria-describedby="submit-button">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="boton input-group-append" id="boton">
-                        <button class="custom-button boton btn btn-secondary" type="button" id="button">Find Places!</button>
+                            <!-- TAB SCEGLI CATEGORIA -->
+                            <div class="tab">
+                                <form id="form">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h2 class=>Scegli la categoria del posto</h2>
+                                <form id="form">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="nextPrev(1)">Ricerca Manuale</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Ristorante</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Pizza</button>
+                                    <br>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Sushi</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Bar</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Pub</button>
+                                    <br>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Forno</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Sushi</button>
+                                    <button class="custom-button boton btn btn-secondary" type="button" id="nextBtn" onclick="">Berlusconi</button>
+                                </form>
+                                </form>
+                            </div>
+                            <div class="tab">
+                                <form id="form">
+                                    <div class="input-group input-group-newsletter">
+                                        <input class="form-control" id="user-input" placeholder="Pizzera, Pub, Sushi, Bar..."
+                                            aria-label="Enter email..." aria-describedby="submit-button">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <div class="boton input-group-append" id="boton">
+                                            <button class="custom-button boton btn btn-secondary" type="button" id="button">Find Places!</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="noresults">
+                                </p>
+                                <p class="noresults2">Nel caso il risultato non dovesse apparire dopo qualche secondo controlla la tua connessione!
+                                </p>
+                                <table class="table" cellpadding="10">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Reviews</th>
+                                        <th scope="col">Rating</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                </form>
-
-                <p class="noresults">
-                </p>
-                <p class="noresults2">Nel caso il risultato non dovesse apparire dopo qualche secondo controlla la tua connessione!
-                </p>
-
-                <table class="table" cellpadding="10">
-                    <thead>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Reviews</th>
-                        <th scope="col">Rating</th>
-
-                    </tr>
-                    </thead>
-                    <tbody>
-                  
-                    </tbody>
                 </div>
             </div>
-        </div>
-
-      </div>
-    </div>
-
-
-
-    </div>
-
-  </header>
-
-  <script src="app.js"></script>
-  <script src="wizard.js"></script>
-
-
-</body>
-
+        </header>
+        <script src="app.js"></script>
+        <script src="wizard.js"></script>
+        <script src="geolocation.js"></script>
+    </body>
 </html>
