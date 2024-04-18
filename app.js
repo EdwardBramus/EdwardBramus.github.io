@@ -51,7 +51,7 @@ function runEnter() {
 
     for (var i = 0; i < filteredData.length; i++) {d3.select("tbody").insert("tr").html(
       "<td>" + (output[i]['name']) + "</td>" +
-      "<td><a href=" + "\"https://maps.google.com?q=\"" + (output[i]['fulladdr']) + ">" + (output[i]['fulladdr']) + "</a></td>" + 
+      "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" + 
       "<td>" + (output[i]['reviews'])+ "</td>" + 
       "<td>" + (output[i]['rating'])+ "</td>" ) }};
 
