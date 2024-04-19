@@ -4,8 +4,7 @@
 //const stazioneLodiLatitude = 45.3092173;
 //const stazioneLodiLongitude = 9.4976017;
 
-//const x = document.getElementById("geolocation");
-alert(lat, lng);
+const x = document.getElementById("geolocation");
 
 function getLocation() {
     if (navigator.geolocation) {
