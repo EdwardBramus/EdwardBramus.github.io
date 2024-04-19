@@ -76,7 +76,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
         
         //Qui viene stampata la tabella finale
         for (var i = 0; i < filteredData.length; i++) {
-            if (getDistanceFromLatLonInKm(position.coords.latitude, position.coords.longitude, output[i]['latitude'], output[i]['longitude']) <= 200) {
+            //if (getDistanceFromLatLonInKm(position.coords.latitude, position.coords.longitude, output[i]['latitude'], output[i]['longitude']) <= 200) {
                 d3.select("tbody").insert("tr").html(
                     "<td>" + (output[i]['name']) + "</td>" +
                     "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
@@ -84,7 +84,6 @@ d3.csv("PostiLodi.csv").then(function(data) {
                     "<td>" + (output[i]['reviews']) + "</td>" +
                     "<td>" + (output[i]['rating']) + "</td>")
             }
-        }
     };
 
     window.resizeTo(screen.width, screen.height)
