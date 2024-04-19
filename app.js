@@ -4,6 +4,21 @@
 //const stazioneLodiLatitude = 45.3092173;
 //const stazioneLodiLongitude = 9.4976017;
 
+const x = document.getElementById("geolocation");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocalizzazione non supportata.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitudine: " + position.coords.latitude +
+        "<br>Longitudine: " + position.coords.longitude; 
+}
+
 d3.csv("PostiLodi.csv").then(function(data) {
 
     //Definizione delle variabili
