@@ -9,7 +9,7 @@ alert(lat, lng);
 
 function getLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
+        navigator.geolocation.getCurrentPosition(runEnter);
     } else {
         x.innerHTML = "Geolocalizzazione non supportata.";
     }
@@ -19,11 +19,7 @@ function getLocation() {
 d3.csv("PostiLodi.csv").then(function(data) {
 
     //Definizione delle variabili\
-    getLocation();
 
-    var lat = position.coords.latitude; 
-    var lng = position.coords.longitude;
-    alert(lat, lng);
     var PostiLodi = data;
     var button = d3.select("#button");
     var form = d3.select("#form");
@@ -36,6 +32,10 @@ d3.csv("PostiLodi.csv").then(function(data) {
     //Definizione della funzione runEnter
 
     function runEnter() {
+
+    var lat = position.coords.latitude; 
+    var lng = position.coords.longitude;
+    alert(lat, lng);
 
         d3.select("tbody").html("")
         d3.selectAll("p").classed('noresults', true).html("")
