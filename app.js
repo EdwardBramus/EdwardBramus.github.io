@@ -83,7 +83,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
         var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
         var dis = R * c; // distanza in linea d'aria in Km
 
-var dis2 = Math.round((dis + Number.EPSILON) * 100) / 100;    
+var dis2 = Math.round(dis * 100) / 100;
 
 return dis2;
     }
