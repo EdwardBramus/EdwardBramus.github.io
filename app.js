@@ -55,12 +55,14 @@ d3.csv("PostiLodi.csv").then(function(data) {
 
         output = _.sortBy(filteredData, 'rating').reverse()
 
+        /*
         for (var i = 0; i < output.length; i++) {
             console.log("Ciclo il for");
             if getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) <= 1  {
                 console.log(output[i]['name']);
             }
         }
+        */
 
         //Qui viene stampata la tabella finale
 
@@ -69,6 +71,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
                 "<td>" + (output[i]['name']) + "</td>" +
                 "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
                 "<td>" + (output[i]['reviews']) + "</td>" +
+                "<td>" + (getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
                 "<td>" + (output[i]['rating']) + "</td>")
         }
     };
