@@ -96,4 +96,4 @@ return dis2;
 
     function deg2rad(deg) {
         return deg * (Math.PI / 180)
-    };
+    }
