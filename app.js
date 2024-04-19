@@ -51,18 +51,20 @@ d3.csv("PostiLodi.csv").then(function(data) {
 
         output = _.sortBy(filteredData, 'rating').reverse()
 
+        console.log("Posti entro un 1 Km -----")
         for (var i = 0; i < output.length; i++) {
-            console.log("Ciclo il for");
             if (getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) <= 1) {
                 console.log(output[i]['name']);
             }
         }
+        console.log("----------")
         
         //Qui viene stampata la tabella finale
         for (var i = 0; i < filteredData.length; i++) {
             d3.select("tbody").insert("tr").html(
                 "<td>" + (output[i]['name']) + "</td>" +
                 "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
+                "<td>" + (getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) + "</td>" +
                 "<td>" + (output[i]['reviews']) + "</td>" +
                 "<td>" + (output[i]['rating']) + "</td>")
         }
