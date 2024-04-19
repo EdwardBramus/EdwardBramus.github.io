@@ -51,19 +51,14 @@ d3.csv("PostiLodi.csv").then(function(data) {
 
         output = _.sortBy(filteredData, 'rating').reverse()
 
-        /*
         for (var i = 0; i < output.length; i++) {
             console.log("Ciclo il for");
             if getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) <= 1  {
                 console.log(output[i]['name']);
             }
         }
-        */
-
+        
         //Qui viene stampata la tabella finale
-        console.log("PROVA");
-        console.log(getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[0]['latitude'], output[0]['longitude']);
-
         for (var i = 0; i < filteredData.length; i++) {
             d3.select("tbody").insert("tr").html(
                 "<td>" + (output[i]['name']) + "</td>" +
