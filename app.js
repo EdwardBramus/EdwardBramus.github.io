@@ -87,10 +87,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
         for (var i = 0; i < filteredData.length; i++) {
             if (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude']) <= 1000) {
                 d3.select("tbody").
-                    .styles({
-                    "background-color": "yellow",
-                    "
-                     })
+                    .style("background-color","yellow")
                     .insert("tr").html(
                     "<td style="font-family:Arial, Helvetica, sans-serif">" + (output[i]['name']) + "</td>" +
                     "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
