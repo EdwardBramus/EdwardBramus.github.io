@@ -55,7 +55,7 @@ const x = document.getElementById("geolocation");
             }
         }
     }
-    };
+    });
         
     window.resizeTo(screen.width, screen.height)
     function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
