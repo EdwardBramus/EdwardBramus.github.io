@@ -39,8 +39,7 @@ body {
 
 .columns {
 background-color: #F45D01;
-border: solid;
-border-color: yellow #32a1ce;
+border: 4mm ridge rgba(211, 220, 50, .6);
 font-family: Arial, sans-serif;
 color: white;
 }
