@@ -47,6 +47,11 @@ body {
   height: auto;
 }
 
+#final-table {
+font-family: 'Lilita One';
+font-size: 5px;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
   #svg-title {
