@@ -74,7 +74,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
             }
         }
     }
-    };
+    });
         
     window.resizeTo(screen.width, screen.height)
 
