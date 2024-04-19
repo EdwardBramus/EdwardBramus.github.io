@@ -38,7 +38,9 @@ body {
 }
 
 .columns {
-font-family: 'Lilita One';
+font-family: 'Lilita One'
+font-size: 10px;
+color: white;
 }
 
 #svg-title {
