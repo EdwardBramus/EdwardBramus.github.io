@@ -9,10 +9,6 @@ body {
   display: none;
 }
 
-.tbody {
-font-family: 'Lilita One';
-  font-size: 10px;
-}
 .container {
     display: flex;
     flex-direction: column;
