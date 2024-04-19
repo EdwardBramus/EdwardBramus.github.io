@@ -7,15 +7,18 @@
 //const x = document.getElementById("geolocation");
 
 function getLocation() {
-if (navigator.geolocation) { 
-    navigator.geolocation.getCurrentPosition(showPosition); 
-} else {
-    x.innerHTML = "Geolocalizzazione non supportata.";}}
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocalizzazione non supportata.";
+    }
+}
 
 
 d3.csv("PostiLodi.csv").then(function(data) {
 
-    //Definizione delle variabili
+    //Definizione delle variabili\
+    getLocation();
 
     var lat = position.coords.latitude; 
     var lng = position.coords.longitude;
