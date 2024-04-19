@@ -56,8 +56,9 @@ d3.csv("PostiLodi.csv").then(function(data) {
         output = _.sortBy(filteredData, 'rating').reverse()
 
         for (var i = 0; i < output.length; i++) {
+            console.log("Ciclo il for");
             if getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) <= 1  {
-                console.log(output[i]['name'])
+                console.log(output[i]['name']);
             }
         }
 
