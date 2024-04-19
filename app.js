@@ -1,8 +1,8 @@
 //Il Modulo D3 carica il csv e dopodichè lo filtra...
 
 // MOCK PER GEOLOCALIZZAZIONE FAKE
-const stazioneLodiLatitude = 45.3092173;
-const stazioneLodiLongitude = 9.4976017;
+//const stazioneLodiLatitude = 45.3092173;
+//const stazioneLodiLongitude = 9.4976017;
 
 d3.csv("PostiLodi.csv").then(function(data) {
 
@@ -52,11 +52,11 @@ d3.csv("PostiLodi.csv").then(function(data) {
         output = _.sortBy(filteredData, 'rating').reverse()
 
         console.log("Posti entro un 1 Km -----")
-        for (var i = 0; i < output.length; i++) {
-            if (getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) <= 1) {
-                console.log(output[i]['name']);
-            }
-        }
+        //for (var i = 0; i < output.length; i++) {
+            //if (getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude']) <= 1) {
+                //console.log(output[i]['name']);
+            //}
+        //}
         console.log("----------")
         
         //Qui viene stampata la tabella finale
