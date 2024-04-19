@@ -12,16 +12,13 @@ if (navigator.geolocation) {
 } else {
     x.innerHTML = "Geolocalizzazione non supportata.";}}
 
-function showPosition(position) {
-    lat = position.coords.latitude; 
-    lng = position.coords.longitude;
-    console.log("lat: " + lat + "lng: " + latlng); // works fine prints current position
-}
 
 d3.csv("PostiLodi.csv").then(function(data) {
 
     //Definizione delle variabili
 
+    var lat = position.coords.latitude; 
+    var lng = position.coords.longitude;
     var PostiLodi = data;
     var button = d3.select("#button");
     var form = d3.select("#form");
@@ -78,7 +75,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
                 d3.select("tbody").insert("tr").html(
                     "<td>" + (output[i]['name']) + "</td>" +
                     "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
-                    "<td>" + (getDistanceFromLatLonInKm(lat, long, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
+                    "<td>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
                     "<td>" + (output[i]['reviews']) + "</td>" +
                     "<td>" + (output[i]['rating']) + "</td>")
             }
