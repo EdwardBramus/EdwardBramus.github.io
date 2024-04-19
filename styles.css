@@ -38,6 +38,8 @@ body {
 }
 
 .columns {
+border: solid;
+border-color: yellow #32a1ce;
 font-family: Arial, sans-serif;
 color: white;
 }
