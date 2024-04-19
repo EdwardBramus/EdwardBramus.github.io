@@ -9,6 +9,8 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitudine: " + position.coords.latitude +
-        "<br>Longitudine: " + position.coords.longitude; 
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    x.innerHTML = "Latitudine: " + lat +
+        "<br>Longitudine: " + lng; 
 }
