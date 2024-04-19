@@ -4,6 +4,11 @@
 //const stazioneLodiLatitude = 45.3092173;
 //const stazioneLodiLongitude = 9.4976017;
 
+var lat;
+var lng;
+
+
+
 const x = document.getElementById("geolocation");
 
 function getLocation() {
@@ -15,8 +20,9 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitudine: " + position.coords.latitude +
-        "<br>Longitudine: " + position.coords.longitude; 
+    lat = position.coords.latitude; 
+    lng = position.coords.longitude;
+    console.log("lat: " + lat + "lng: " + latlng); // works fine prints current position
 }
 
 d3.csv("PostiLodi.csv").then(function(data) {
@@ -80,7 +86,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
                 d3.select("tbody").insert("tr").html(
                     "<td>" + (output[i]['name']) + "</td>" +
                     "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
-                    "<td>" + (getDistanceFromLatLonInKm(position.coords.latitude, position.coords.longitude, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
+                    "<td>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
                     "<td>" + (output[i]['reviews']) + "</td>" +
                     "<td>" + (output[i]['rating']) + "</td>")
             }
