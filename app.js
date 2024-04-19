@@ -5,8 +5,8 @@ import {
 } from './geolocation.js'; // Mi importo la funzione per calcolare la distanza da geolocation
 
 // MOCK PER GEOLOCALIZZAZIONE FAKE
-const stazioneLodiLatitude = 45.309217326050074;
-const stazioneLodiLongitude = 9.497601714830633;
+const stazioneLodiLatitude = 45.3092173;
+const stazioneLodiLongitude = 9.4976017;
 
 d3.csv("PostiLodi.csv").then(function(data) {
 
