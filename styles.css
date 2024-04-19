@@ -40,7 +40,7 @@ body {
 .columns {
 position: relative;
 background-color: #F45D01;
-border: 2mm ridge black;
+border: 1mm ridge black;
 font-family: Arial, sans-serif;
 color: white;
 }
