@@ -6,6 +6,27 @@ const stazioneLodiLongitude = 9.4976017;
 
 const x = document.getElementById("geolocation");
 
+var lat = '';
+var lon = '';
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocalizzazione non supportata.";
+    }
+}
+
+getLocation();
+
+function showPosition(position) {
+    lat = position.coords.latitude;
+    lng = position.coords.longitude;
+    console.log(lat);
+    console.log(lng);
+    x.innerHTML = "Latitudine: " + lat +
+        "<br>Longitudine: " + lng; 
+
 d3.csv("PostiLodi.csv").then(function(data) {
     
     //Definizione delle variabili
@@ -75,6 +96,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
         }
     }
     });
+    }
         
     window.resizeTo(screen.width, screen.height)
 
