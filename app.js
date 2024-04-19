@@ -4,39 +4,13 @@
 //const stazioneLodiLatitude = 45.3092173;
 //const stazioneLodiLongitude = 9.4976017;
 
-// Creating a promise out of the function
-let getLocationPromise = new Promise((resolve, reject) => {
-    if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (position) {
-
-            // console.log(position.coords.latitude, position.coords.longitude) //test...
-
-            lat = position.coords.latitude
-            long = position.coords.longitude
-
-            // console.log("LATLONG1: ", lat, long) //test...
-
-            // Resolving the values which I need
-            resolve({latitude: lat, 
-                    longitude: long})
-        })
-
-    } else {
-        reject("your browser doesn't support geolocation API")
-    }
-})
-
-// Now I can use the promise followed by .then() 
-// to make use of the values anywhere in the program
-getLocationPromise.then((location) => {
-    console.log(location.latitude)
-}).catch((err) => {
-    console.log(err)
-})
-
 //const x = document.getElementById("geolocation");
 
-//function getLocation() {if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); } else { x.innerHTML = "Geolocalizzazione non supportata.";}}
+function getLocation() {
+if (navigator.geolocation) { 
+    navigator.geolocation.getCurrentPosition(showPosition); 
+} else {
+    x.innerHTML = "Geolocalizzazione non supportata.";}}
 
 function showPosition(position) {
     lat = position.coords.latitude; 
