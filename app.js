@@ -1,7 +1,9 @@
 //Il Modulo D3 carica il csv e dopodichè lo filtra...
+
 // MOCK PER GEOLOCALIZZAZIONE FAKE
 const stazioneLodiLatitude = 45.3092173;
 const stazioneLodiLongitude = 9.4976017;
+
 d3.csv("PostiLodi.csv").then(function(data) {
     //Definizione delle variabili
     var PostiLodi = data;
