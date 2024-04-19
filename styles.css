@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #EEB902;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
 }
 
 .tab {
@@ -41,7 +41,7 @@ body {
 position: relative;
 background-color: #F45D01;
 border: 1mm ridge black;
-font-family: Arial, sans-serif;
+font-family: Georgia, serif;
 color: white;
 }
 
