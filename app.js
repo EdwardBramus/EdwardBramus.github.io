@@ -2,7 +2,7 @@
 
 import {
     getDistanceFromLatLonInKm
-} from './geolocation.js'; // Mi importo la funzione per calcolare la distanza da geolocation
+} from 'geolocation.js'; // Mi importo la funzione per calcolare la distanza da geolocation
 
 // MOCK PER GEOLOCALIZZAZIONE FAKE
 const stazioneLodiLatitude = 45.3092173;
@@ -65,13 +65,14 @@ d3.csv("PostiLodi.csv").then(function(data) {
         */
 
         //Qui viene stampata la tabella finale
+        console.log("PROVA");
+        console.log(getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[0]['latitude'], output[0]['longitude']);
 
         for (var i = 0; i < filteredData.length; i++) {
             d3.select("tbody").insert("tr").html(
                 "<td>" + (output[i]['name']) + "</td>" +
                 "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
                 "<td>" + (output[i]['reviews']) + "</td>" +
-                "<td>" + (getDistanceFromLatLonInKm(stazioneLodiLatitude, stazioneLodiLongitude, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
                 "<td>" + (output[i]['rating']) + "</td>")
         }
     };
