@@ -1,9 +1,5 @@
 //Il Modulo D3 carica il csv e dopodichè lo filtra...
 
-import {
-    getDistanceFromLatLonInKm
-} from 'geolocation.js'; // Mi importo la funzione per calcolare la distanza da geolocation
-
 // MOCK PER GEOLOCALIZZAZIONE FAKE
 const stazioneLodiLatitude = 45.3092173;
 const stazioneLodiLongitude = 9.4976017;
@@ -79,5 +75,21 @@ d3.csv("PostiLodi.csv").then(function(data) {
 
     window.resizeTo(screen.width, screen.height)
 
+    function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
+        var R = 6371; // raggio Terra
+        var dLat = deg2rad(lat2 - lat1);
+        var dLon = deg2rad(lon2 - lon1);
+        var a =
+            Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        var dis = R * c; // distanza in linea d'aria in Km
 
+        return dis;
+    }
+
+    function deg2rad(deg) {
+        return deg * (Math.PI / 180)
+    }
 });
