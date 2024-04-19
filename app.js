@@ -89,9 +89,9 @@ d3.csv("PostiLodi.csv").then(function(data) {
                 d3.select("tbody").style("background-color","yellow").append("tr").html(
                     "<td style='font-family: Georgia, serif;'>" + (output[i]['name']) + "</td>" +
                     "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
-                    "<td style='font-family:cursive;'>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
-                    "<td style='font-family:cursive;'>" + (output[i]['reviews']) + "</td>" +
-                    "<td style='font-family:cursive;'>" + (output[i]['rating']) + "</td>")
+                    "<td style='font-family: Georgia, serif;'>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
+                    "<td style='font-family: Georgia, serif;'>" + (output[i]['reviews']) + "</td>" +
+                    "<td style='font-family: Georgia, serif;'>" + (output[i]['rating']) + "</td>")
             }
         }
     }
