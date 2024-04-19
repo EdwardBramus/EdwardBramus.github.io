@@ -55,7 +55,7 @@ const x = document.getElementById("geolocation");
             }
         }
     }
-    });
+    };
         
     window.resizeTo(screen.width, screen.height)
     function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
@@ -67,8 +67,10 @@ const x = document.getElementById("geolocation");
             Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
             Math.sin(dLon / 2) * Math.sin(dLon / 2);
         var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        var dis = R * c; // distanza in linea d'aria in Km
+        var dis = R * c; //distanza in linea d'aria in Km
+        
 var dis2 = Math.round(dis * 100) / 100;
+        
 return dis2;
     }
     function deg2rad(deg) {
