@@ -37,6 +37,10 @@ body {
     cursor: pointer;
 }
 
+.columns {
+font-family: 'Lilita One';
+}
+
 #svg-title {
   width: 70%;
   height: auto;
@@ -47,9 +51,7 @@ body {
   height: auto;
 }
 
-.columns {
-font-family: 'Lilita One';
-}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
