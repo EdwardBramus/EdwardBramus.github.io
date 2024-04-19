@@ -4,8 +4,35 @@
 //const stazioneLodiLatitude = 45.3092173;
 //const stazioneLodiLongitude = 9.4976017;
 
-var lat;
-var lng;
+// Creating a promise out of the function
+let getLocationPromise = new Promise((resolve, reject) => {
+    if(navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+
+            // console.log(position.coords.latitude, position.coords.longitude) //test...
+
+            lat = position.coords.latitude
+            long = position.coords.longitude
+
+            // console.log("LATLONG1: ", lat, long) //test...
+
+            // Resolving the values which I need
+            resolve({latitude: lat, 
+                    longitude: long})
+        })
+
+    } else {
+        reject("your browser doesn't support geolocation API")
+    }
+})
+
+// Now I can use the promise followed by .then() 
+// to make use of the values anywhere in the program
+getLocationPromise.then((location) => {
+    console.log(location.latitude)
+}).catch((err) => {
+    console.log(err)
+})
 
 
 
@@ -86,7 +113,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
                 d3.select("tbody").insert("tr").html(
                     "<td>" + (output[i]['name']) + "</td>" +
                     "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
-                    "<td>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
+                    "<td>" + (getDistanceFromLatLonInKm(lat, long, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
                     "<td>" + (output[i]['reviews']) + "</td>" +
                     "<td>" + (output[i]['rating']) + "</td>")
             }
