@@ -22,6 +22,7 @@ d3.csv("PostiLodi.csv").then(function(data) {
 
     var lat = position.coords.latitude; 
     var lng = position.coords.longitude;
+    alert(lat, lng);
     var PostiLodi = data;
     var button = d3.select("#button");
     var form = d3.select("#form");
