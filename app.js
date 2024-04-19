@@ -4,7 +4,24 @@
 const stazioneLodiLatitude = 45.3092173;
 const stazioneLodiLongitude = 9.4976017;
 
-d3.csv("PostiLodi.csv").then(function(data) {
+const x = document.getElementById("geolocation");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocalizzazione non supportata.";
+    }
+}
+
+function showPosition(position) {
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    console.log(lat);
+    console.log(lng);
+    x.innerHTML = "Latitudine: " + lat +
+        "<br>Longitudine: " + lng; 
+    d3.csv("PostiLodi.csv").then(function(data) {
     //Definizione delle variabili
     var PostiLodi = data;
     var button = d3.select("#button");
@@ -52,7 +69,9 @@ d3.csv("PostiLodi.csv").then(function(data) {
                     "<td>" + (output[i]['rating']) + "</td>")
             }
         }
+    }
     };
+        
     window.resizeTo(screen.width, screen.height)
     function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
         var R = 6371; // raggio Terra
