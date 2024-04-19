@@ -18,12 +18,8 @@ function getLocation() {
 getLocation();
 
 function showPosition(position) {
-    lat = position.coords.latitude;
-    lng = position.coords.longitude;
-    console.log(lat);
-    console.log(lng);
-    x.innerHTML = "Latitudine: " + lat +
-        "<br>Longitudine: " + lng; 
+    //x.innerHTML = "Latitudine: " + lat +
+    //"<br>Longitudine: " + lng; 
 
 d3.csv("PostiLodi.csv").then(function(data) {
     
@@ -41,6 +37,11 @@ d3.csv("PostiLodi.csv").then(function(data) {
     //Definizione della funzione runEnter
     
     function runEnter() {
+
+    lat = position.coords.latitude;
+    lng = position.coords.longitude;
+    console.log(lat);
+    console.log(lng);
         
         d3.select("tbody").html("")
         d3.selectAll("p").classed('noresults', true).html("")
