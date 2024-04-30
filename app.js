@@ -16,13 +16,13 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    //x.innerHTML = "Latitudine: " + lat +
-    //"<br>Longitudine: " + lng; 
+    lat = position.coords.latitude;
+    lng = position.coords.longitude;   
 }
 
 getLocation();
 
-function loadCSV(csvIdentifier) {
+function loadCSV(csvIdentifier) { 
     console.log("id string:", csvIdentifier);
 
     let csvName;
@@ -57,8 +57,6 @@ function loadCSV(csvIdentifier) {
 
         function runEnter() {
 
-            lat = position.coords.latitude;
-            lng = position.coords.longitude;
             console.log(lat);
             console.log(lng);
 
