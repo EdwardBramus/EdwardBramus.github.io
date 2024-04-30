@@ -21,7 +21,7 @@ function showPosition(position) {
     //x.innerHTML = "Latitudine: " + lat +
     //"<br>Longitudine: " + lng; 
 
-d3.csv("PostiLodi.csv").then(function(data) {
+d3.csv("Milano.csv").then(function(data) {
     
     //Definizione delle variabili
     
