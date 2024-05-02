@@ -36,6 +36,10 @@ function loadCSV(csvIdentifier) {
             csvName = "Milano.csv";
             console.log("load Milano.csv");
             break;
+        case 3:
+            csvName = "Pavia.csv";
+            console.log("load Pavia.csv");
+            break;
         default:
             csvName = "default";
     }
