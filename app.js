@@ -107,12 +107,12 @@ function loadCSV(csvIdentifier) {
             //Qui viene stampata la tabella finale
             for (var i = 0; i < filteredData.length; i++) {
                 if (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude']) <= 1000) {
-                    d3.select("tbody").style("background-color", "yellow").append("tr").html(
-                        "<td style='font-family: Georgia, serif;'>" + (output[i]['name']) + "</td>" +
+                    d3.select("tbody").append("tr").html(
+                        "<td>" + (output[i]['name']) + "</td>" +
                         "<td><a href=" + "\"https://maps.google.com?q=" + (output[i]['name']) + ", " + (output[i]['fulladdr']) + "\">" + (output[i]['fulladdr']) + "</a></td>" +
-                        "<td style='font-family: Georgia, serif;'>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
-                        "<td style='font-family: Georgia, serif;'>" + (output[i]['reviews']) + "</td>" +
-                        "<td style='font-family: Georgia, serif;'>" + (output[i]['rating']) + "</td>")
+                        "<td>" + (getDistanceFromLatLonInKm(lat, lng, output[i]['latitude'], output[i]['longitude'])) + "</td>" +
+                        "<td>" + (output[i]['reviews']) + "</td>" +
+                        "<td>" + (output[i]['rating']) + "</td>")
                 }
             }
         }
