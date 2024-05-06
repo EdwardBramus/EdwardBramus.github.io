@@ -29,8 +29,8 @@ function loadCSV(csvIdentifier) {
 
     switch (csvIdentifier) {
         case 1:
-            csvName = "PostiLodi.csv";
-            console.log("load PostiLodi.csv");
+            csvName = "Lodi.csv";
+            console.log("load Lodi.csv");
             break;
         case 2:
             csvName = "Milano.csv";
@@ -39,6 +39,18 @@ function loadCSV(csvIdentifier) {
         case 3:
             csvName = "Pavia.csv";
             console.log("load Pavia.csv");
+            break;
+        case 4:
+            csvName = "Napoli.csv";
+            console.log("load Napoli.csv");
+            break;
+        case 5:
+            csvName = "Piacenza.csv";
+            console.log("load Piacenza.csv");
+            break;
+        case 6:
+            csvName = "Roma.csv";
+            console.log("load Roma.csv");
             break;
         default:
             csvName = "default";
