@@ -29,28 +29,84 @@ function loadCSV(csvIdentifier) {
 
     switch (csvIdentifier) {
         case 1:
-            csvName = "Lodi.csv";
-            console.log("load Lodi.csv");
-            break;
-        case 2:
             csvName = "Milano.csv";
             console.log("load Milano.csv");
+            break;
+        case 2:
+            csvName = "Lodi.csv";
+            console.log("load Lodi.csv");
             break;
         case 3:
             csvName = "Pavia.csv";
             console.log("load Pavia.csv");
             break;
         case 4:
-            csvName = "Napoli.csv";
-            console.log("load Napoli.csv");
-            break;
-        case 5:
             csvName = "Piacenza.csv";
             console.log("load Piacenza.csv");
             break;
-        case 6:
+        case 5:
             csvName = "Roma.csv";
             console.log("load Roma.csv");
+            break;
+        case 6:
+            csvName = "Napoli.csv";
+            console.log("load Napoli.csv");
+            break;
+        case 7:
+            csvName = "Torino.csv";
+            console.log("load Torino.csv");
+            break;
+        case 8:
+            csvName = "Palermo.csv";
+            console.log("load Palermo.csv");
+            break;
+        case 9:
+            csvName = "Genova.csv";
+            console.log("load Genova.csv");
+            break;
+        case 10:
+            csvName = "Bologna.csv";
+            console.log("load Bologna.csv");
+            break;
+        case 11:
+            csvName = "Firenze.csv";
+            console.log("load Firenze.csv");
+            break;
+        case 12:
+            csvName = "Bari.csv";
+            console.log("load Bari.csv");
+            break;
+        case 13:
+            csvName = "Venezia.csv";
+            console.log("load Venezia.csv");
+            break;
+        case 14:
+            csvName = "Trieste.csv";
+            console.log("load Trieste.csv");
+            break;
+        case 15:
+            csvName = "Cagliari.csv";
+            console.log("load Cagliari.csv");
+            break;
+        case 16:
+            csvName = "Trento.csv";
+            console.log("load Trento.csv");
+            break;
+        case 17:
+            csvName = "Ancona.csv";
+            console.log("load Ancona.csv");
+            break;
+        case 18:
+            csvName = "Catanzaro.csv";
+            console.log("load Catanzaro.csv");
+            break;
+        case 19:
+            csvName = "L'Aquila.csv";
+            console.log("load L'Aquila.csv");
+            break;
+        case 20:
+            csvName = "Potenza.csv";
+            console.log("load Potenza.csv");
             break;
         default:
             csvName = "default";
