@@ -4,18 +4,18 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(253, 129, 14), rgb(253, 229, 14));
+    background-image: linear-gradient(to bottom right, rgb(251, 172, 36), rgb(255, 233, 39));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Lilita One;
     font-size: 20px;
-    color: rgb(255, 76, 56);
+    color: #F93822FF;
 }
 
 .tab {
   font-family: Lilita One;
   font-size: 20px;
-  color: rgb(255, 76, 56);
+  color: #F93822FF;
   display: none;
 }
 
