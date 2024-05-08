@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(9, 0, 53), rgb(3, 51, 92));
+    background-image: linear-gradient(to bottom right, #FDD20EFF, rgb(253, 248, 99));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Lilita One';
-    color: white;
+    color: #F93822FF;
 }
 
 .tab {
@@ -24,9 +24,9 @@ body {
 }
 
 .custom-button {
-  background-color: #dac806;
+  background-color: #F93822FF;
   border: none;
-  color: white;
+  color: rgb(255, 221, 70);
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -45,10 +45,10 @@ body {
 
 .columns {
 position: relative;
-background-color: #dac806;
+background-color: #F93822FF;
 border: 1mm ridge black;
 font-family: Georgia, serif;
-color: white;
+color: rgb(255, 221, 70);
 }
 
 .noresults2 {
@@ -99,11 +99,11 @@ table {
     }
 
     tr:nth-child(odd) {
-         background: #e6bc03ea;
+         background: #F93822FF;
     }
 
     tr:nth-child(even) {
-         background: #dacf06;
+         background: rgb(255, 77, 57);
     }
 
     td {
