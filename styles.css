@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-color: #EEB902;
+    background-image: linear-gradient(to bottom right, red, yellow);
     font-family: Georgia, serif;
 }
 
@@ -99,7 +99,7 @@ table {
     }
 
     tr:nth-child(even) {
-         background: #4278FF;
+         background: #051a50;
     }
 
     td {
