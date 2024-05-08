@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, rgb(35, 12, 153), rgb(11, 217, 210));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Georgia, serif;
@@ -23,7 +23,7 @@ body {
 }
 
 .custom-button {
-  background-color: #051a50;
+  background-color: #F45D01;
   border: none;
   color: white;
   padding: 20px;
@@ -44,7 +44,7 @@ body {
 
 .columns {
 position: relative;
-background-color: #051a50;
+background-color: #F45D01;
 border: 1mm ridge black;
 font-family: Georgia, serif;
 color: white;
@@ -98,11 +98,11 @@ table {
     }
 
     tr:nth-child(odd) {
-         background: #0b2d81;
+         background: #9f2d00;
     }
 
     tr:nth-child(even) {
-         background: #051a50;
+         background: #F45D01;
     }
 
     td {
