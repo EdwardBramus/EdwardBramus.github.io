@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(35, 12, 153), rgb(11, 217, 210));
+    background-image: linear-gradient(to bottom right, rgb(16, 2, 89), rgb(11, 162, 147));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Georgia, serif;
+    font-family: 'Lilita One';
+    color: white;
 }
 
 .tab {
@@ -98,7 +99,7 @@ table {
     }
 
     tr:nth-child(odd) {
-         background: #9f2d00;
+         background: #f41901;
     }
 
     tr:nth-child(even) {
