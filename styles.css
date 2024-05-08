@@ -12,17 +12,10 @@ body {
     color: #F93822FF;
 }
 
-.noresults2 {
-    font-family: 'Lilita One';
-    color: #F93822FF;
-}
-
-.info {
-     font-family: 'Lilita One';
-     color: #F93822FF;
- }
-
 .tab {
+  font-family: Lilita One;
+  font-size: 20px;
+  color: #F93822FF;
   display: none;
 }
 
@@ -61,21 +54,6 @@ border: 1mm ridge black;
 font-family: Georgia, serif;
 color: rgb(255, 255, 255);
 }
-
-.noresults2 {
-font-family: Georgia, serif;
-}
-
-.info {
-font-family: Georgia, serif;
-}
-
-.footer { 
-     position: absolute; 
-     bottom: 0; 
-     left: 0; 
-     z-index: 10;
- }
 
 #svg-title {
   width: 70%;
