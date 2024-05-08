@@ -4,12 +4,22 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #FDD20EFF, rgb(253, 248, 99));
+    background-image: linear-gradient(to bottom right, rgb(255, 171, 4), #FDD20EFF);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Lilita One';
     color: #F93822FF;
 }
+
+.noresults2 {
+    font-family: 'Lilita One';
+    color: #F93822FF;
+}
+
+.info {
+     font-family: 'Lilita One';
+     color: #F93822FF;
+ }
 
 .tab {
   display: none;
@@ -26,7 +36,7 @@ body {
 .custom-button {
   background-color: #F93822FF;
   border: none;
-  color: rgb(255, 221, 70);
+  color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -48,7 +58,7 @@ position: relative;
 background-color: #F93822FF;
 border: 1mm ridge black;
 font-family: Georgia, serif;
-color: rgb(255, 221, 70);
+color: rgb(255, 255, 255);
 }
 
 .noresults2 {
