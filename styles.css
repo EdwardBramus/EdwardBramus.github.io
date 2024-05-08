@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(16, 2, 89), rgb(11, 162, 147));
+    background-image: linear-gradient(to bottom right, rgb(9, 0, 53), rgb(3, 51, 92));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Lilita One';
@@ -24,7 +24,7 @@ body {
 }
 
 .custom-button {
-  background-color: #F45D01;
+  background-color: #dac806;
   border: none;
   color: white;
   padding: 20px;
@@ -45,7 +45,7 @@ body {
 
 .columns {
 position: relative;
-background-color: #F45D01;
+background-color: #dac806;
 border: 1mm ridge black;
 font-family: Georgia, serif;
 color: white;
@@ -99,11 +99,11 @@ table {
     }
 
     tr:nth-child(odd) {
-         background: #f41901;
+         background: #e6bc03ea;
     }
 
     tr:nth-child(even) {
-         background: #F45D01;
+         background: #dacf06;
     }
 
     td {
