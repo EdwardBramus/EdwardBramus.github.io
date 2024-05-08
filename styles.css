@@ -99,7 +99,7 @@ table {
     }
 
     tr:nth-child(even) {
-         background: #F45D01;
+         background: #4278FF;
     }
 
     td {
@@ -132,7 +132,7 @@ table {
     }
 
     td:nth-of-type(3):before {
-         content: "Distanza";
+         content: "Voto";
     }
 
     td:nth-of-type(4):before {
@@ -140,7 +140,7 @@ table {
     }
    
     td:nth-of-type(5):before {
-         content: "Voto";
+         content: "Distanza";
     }
 }
 
