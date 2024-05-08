@@ -9,13 +9,13 @@ body {
     background-attachment: fixed;
     font-family: Lilita One;
     font-size: 20px;
-    color: #F93822FF;
+    color: rgb(255, 76, 56);
 }
 
 .tab {
   font-family: Lilita One;
   font-size: 20px;
-  color: #F93822FF;
+  color: rgb(255, 76, 56);
   display: none;
 }
 
