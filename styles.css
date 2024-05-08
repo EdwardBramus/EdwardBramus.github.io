@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(251, 133, 36), rgb(255, 233, 39));
+    background-image: linear-gradient(to bottom right, rgb(255, 187, 51), rgb(255, 233, 39));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Lilita One;
@@ -95,7 +95,7 @@ table {
     }
 
     tr:nth-child(odd) {
-         background: #F93822FF;
+         background: rgb(255, 77, 57);
     }
 
     tr:nth-child(even) {
