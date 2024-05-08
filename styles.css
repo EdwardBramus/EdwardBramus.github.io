@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #FDD20EFF, rgb(247, 241, 215));
+    background-image: linear-gradient(to bottom right, rgb(253, 129, 14), rgb(253, 229, 14));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Lilita One;
@@ -69,6 +69,13 @@ font-family: Georgia, serif;
 .info {
 font-family: Georgia, serif;
 }
+
+.footer { 
+     position: absolute; 
+     bottom: 0; 
+     left: 0; 
+     z-index: 10;
+ }
 
 #svg-title {
   width: 70%;
