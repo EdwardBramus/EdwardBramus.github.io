@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(226, 151, 0), #FDD20EFF);
+    background-image: linear-gradient(to bottom right, #FDD20EFF, rgb(247, 241, 215));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Lilita One';
