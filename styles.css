@@ -56,13 +56,13 @@ color: rgb(255, 255, 255);
 }
 
 #svg-title {
-  width: 70%;
-  height: auto;
+  max-width: 300vw;
+  max-height: 300vh;
 }
 
 #svg-logo {
-  width: 10%;
-  height: auto;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 
