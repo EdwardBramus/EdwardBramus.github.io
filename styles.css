@@ -4,18 +4,18 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(251, 172, 36), rgb(255, 233, 39));
+    background-image: linear-gradient(to bottom right, rgb(251, 133, 36), rgb(255, 233, 39));
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Lilita One;
     font-size: 20px;
-    color: #F93822FF;
+    color: rgb(254, 46, 23);
 }
 
 .tab {
   font-family: Lilita One;
   font-size: 20px;
-  color: #F93822FF;
+  color: rgb(254, 46, 23);
   display: none;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .custom-button {
-  background-color: #F93822FF;
+  background-color: rgb(254, 46, 23);
   border: none;
   color: rgb(255, 255, 255);
   padding: 20px;
@@ -49,7 +49,7 @@ body {
 
 .columns {
 position: relative;
-background-color: #F93822FF;
+background-color: rgb(254, 46, 23);
 border: 1mm ridge black;
 font-family: Georgia, serif;
 color: rgb(255, 255, 255);
@@ -124,22 +124,27 @@ table {
     }
    
     td:nth-of-type(1):before {
+         background: #F93822FF;
          content: "Nome";
     }
 
     td:nth-of-type(2):before {
+         background: rgb(255, 77, 57);
          content: "Indirizzo";
     }
 
     td:nth-of-type(3):before {
+         background: #F93822FF;
          content: "Voto";
     }
 
     td:nth-of-type(4):before {
+         background: rgb(255, 77, 57);
          content: "Recensioni";
     }
    
     td:nth-of-type(5):before {
+         background: #F93822FF;
          content: "Distanza";
     }
 }
